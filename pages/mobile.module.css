@@ -1,0 +1,261 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  
+}
+
+.heroSection {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 3.75rem;
+}
+
+.navigationLogo {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+
+}
+
+.teamSection {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.contactSection {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.jesseVector {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  margin-left: -1.5rem;
+  margin-top: -22.5rem;
+}
+.oscarVector1 {
+  position: absolute;
+  width: 60px;
+  height: auto;
+  margin-left: -1.5rem;
+  margin-top: -9.5rem;
+}
+.oscarVector2 {
+  position: absolute;
+  width: 60px;
+  height: auto;
+  margin-left: 16.5rem;
+  margin-top: -24.5rem;
+}
+.topiasVector {
+  position: absolute;
+  width: 110px;
+  height: auto;
+  margin-left: 14.5rem;
+  margin-top: -8.5rem;
+}
+
+.contactTitle {
+  font-family: 'Oxygen';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 44px;
+/* or 122% */
+margin-top: 2rem;
+
+letter-spacing: -0.04em;
+
+color: #2B2F35;
+}
+
+.contactButton {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 48px;
+  gap: 8px;
+  width: 172px;
+  height: 44px;
+  background: #2B2F35;
+  border-radius: 8px;
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.contactIllustration {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: -1.5rem;
+
+}
+
+
+
+.boldTitle {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.04em;
+  color: #2B2F35;
+}
+
+.normalTitle {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: -0.04em;
+    color: #2B2F35;
+}
+
+.subTitle {
+    margin-top: 1.5rem;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #2B2F35;
+}
+
+.mobileIllustration img {
+    padding-top: 4rem;
+    width: 100%;
+    height: auto;
+}
+
+.teamChapterTitle {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: #2B2F35;
+  }
+  
+  .teamTitle {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 72px;
+    /* identical to box height, or 120% */
+    margin-top: 3rem;
+    letter-spacing: -0.04em;
+    color: #2B2F35;
+  }
+  
+  .teamSubTitle {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 2rem;
+    color: #2B2F35;
+  }
+  
+  .teamPicture {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .teamPicture img {
+    /* max-width: 330px;
+    max-height: 420px; */
+    /* max-width: 1.222vw;
+    max-height: 46.667vh; */
+    /* display: block; */
+    width: 100%;
+    height: auto;
+  }
+
+
+.teamName {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+    margin-top: 1rem;
+    letter-spacing: -0.02em;
+  
+    color: #2B2F35;
+  }
+  
+  .teamNameTitle {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    color: #2B2F35;
+    margin-top: 0.5rem;
+  }
+
+  .footer {
+    display: flex;
+    flex: 1;
+    margin-top: 3rem;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+  }
+  
+  .footerBig {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+  }
+  
+  
+  .footerSmall {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.5rem;
+    color: #2B2F35;
+  
+  }
+  
+  .footerEmail {
+    text-decoration: none;
+    color: #F59E6C;
+  
+  }
+  
+  .footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
