@@ -53,7 +53,7 @@ export default function Home() {
             <Image src={coachingIcon} alt="Coaching Icon" />
           </div>
           <div className={styles.coachingDescription}>
-            Alex Coh's coaching system has evolved through in excess of 22 years...
+            {`Alex Coh's`} coaching system has evolved through in excess of 22 years...
           </div>
         </div>
         <div className={styles.moreButtonDiv}>
@@ -64,7 +64,7 @@ export default function Home() {
 
         <div className={styles.nutritionSection}>
           <div className={styles.nutritionDescription}>
-            Alex Coh's nutrition planning is custom made for every client...
+            {`Alex Coh's`} nutrition planning is custom made for every client...
           </div>
           <div className={styles.nutritionIcon}>
             <Image src={nutritionIcon} alt="Nutrition Icon" />
