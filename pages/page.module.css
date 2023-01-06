@@ -15,7 +15,7 @@
 
 .heroImage img {
   position: relative;
-  margin-top: -40vh;
+  margin-top: -30vh;
   width: 100vw;
   opacity: 0.6;
   height: auto;
@@ -331,6 +331,9 @@
 }
 
 .moreButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 24px 40px;
 
   width: 9.375vw;
@@ -341,7 +344,6 @@
   font-size: 18px;
   line-height: 22px;
   /* identical to box height */
-  text-align: center;
   text-transform: uppercase;
 
   color: #ffffff;
