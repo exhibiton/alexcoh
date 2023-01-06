@@ -43,15 +43,11 @@
 }
 
 .contactButton {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
   padding: 60px;
 
   width: 258px;
   height: 143px;
-  position: position;
+  position: relative;
   background: #2e0db3;
 
   font-family: 'Readex Pro';
@@ -72,11 +68,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 50vh;
+  margin-top: 60vh;
 }
 
 .servicesSection div {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .servicesTitle {
@@ -114,7 +110,7 @@
 
 .cohIcon {
   position: relative;
-  margin-top: -1100px;
+  margin-top: -1200px;
   z-index: 0;
 }
 
@@ -124,4 +120,317 @@
   width: 100vw;
   height: auto;
   z-index: 0;
+}
+
+.coachingSection {
+  margin-top: 100px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.coachingText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3.4vw;
+  line-height: 4.33vw;
+  /* identical to box height, or 135% */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #d8d5e2;
+}
+
+.coachingPicture {
+  width: 25vw;
+  height: auto;
+}
+
+.coachingPicture img {
+  width: 25vw;
+  height: auto;
+  margin-bottom: -3px;
+}
+
+.coachingIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 25vw;
+}
+
+.coachingDescription {
+  width: 25vw;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 3.4vw;
+  line-height: 4.33vw;
+  /* or 120% */
+
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+  background: #2e0db3;
+  mix-blend-mode: normal;
+  padding-left: 48px;
+  padding-top: 48px;
+  padding-right: 32px;
+}
+
+.coachingSection {
+  margin-top: 100px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.nutritionText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3.4vw;
+  line-height: 4.33vw;
+  /* identical to box height, or 135% */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #d8d5e2;
+}
+
+.nutritionPicture {
+  width: 25vw;
+  height: auto;
+}
+
+.nutritionPicture img {
+  width: 25vw;
+  height: auto;
+  margin-bottom: -3px;
+}
+
+.nutritionIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 25vw;
+}
+
+.nutritionDescription {
+  width: 25vw;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 3.4vw;
+  line-height: 4.33vw;
+  /* or 120% */
+
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+  background: #2e0db3;
+  mix-blend-mode: normal;
+  padding-left: 48px;
+  padding-top: 48px;
+  padding-right: 32px;
+}
+
+.nutritionSection {
+  margin-top: -76px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.bikefittingText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3.2vw;
+  line-height: 4.2vw;
+  /* identical to box height, or 135% */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #d8d5e2;
+}
+
+.bikefittingPicture {
+  width: 25vw;
+  height: auto;
+}
+
+.bikefittingPicture img {
+  width: 25vw;
+  height: auto;
+}
+
+.bikefittingIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 25vw;
+}
+
+.bikefittingDescription {
+  width: 25vw;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 3.2vw;
+  line-height: 4.2vw;
+  /* or 120% */
+
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+  background: #2e0db3;
+  mix-blend-mode: normal;
+  padding-left: 48px;
+  padding-top: 48px;
+  padding-right: 32px;
+}
+
+.bikefittingSection {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-top: -76px;
+}
+
+.moreButtonDivRight {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.moreButtonDiv {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.moreButton {
+  padding: 24px 40px;
+
+  width: 9.375vw;
+  height: 8vh;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  background: #2e0db3;
+}
+
+.moreButton:hover {
+  background-color: #958b69;
+}
+
+.interestedSection {
+  margin-top: 13.333vh;
+  margin-bottom: 13.333vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.interestedSectionText {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 52px;
+  /* or 162% */
+
+  letter-spacing: -0.01em;
+
+  color: #d8d5e2;
+  width: 61.111vw;
+}
+
+.getInTouch {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 72px;
+  /* identical to box height, or 112% */
+
+  letter-spacing: -0.01em;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+
+  color: #958b69;
+}
+
+.imgCarouselSection {
+  margin-top: 13.333vh;
+  margin-bottom: 13.333vh;
+}
+
+.imgCarouselSection img {
+  width: 100vw;
+  height: auto;
+}
+
+.testimonialsSection {
+  margin: 13.333vh;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.testimonialsText {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.testimonialsDarkText {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #9d9da8;
 }

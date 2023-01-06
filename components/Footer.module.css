@@ -1,0 +1,38 @@
+.footerSection {
+  padding-left: 3vw;
+  padding-top: 3vw;
+  height: 25vh;
+  width: 100%;
+  background: #0f0f14;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.footerEmail {
+  font-style: normal;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: -0.02em;
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+
+.footerAddress {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #d8d5e2;
+
+  opacity: 0.85;
+}
