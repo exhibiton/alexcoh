@@ -33,7 +33,6 @@ export interface NavLinkProps extends LinkProps {
 export function NavLink({ children, href, ...props }: NavLinkProps) {
   const router = useRouter()
   const isActive = router.pathname === href
-  console.log(`isActive = ${isActive} router.pathname = ${router.pathname} and href = ${href}`)
   return (
     <div
       // Change style depending on whether the link is active

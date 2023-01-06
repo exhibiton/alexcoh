@@ -1,8 +1,6 @@
 .heroTitle {
   width: 708px;
   height: 144px;
-  left: 572px;
-  top: 304px;
 
   font-family: 'Readex Pro';
   font-style: normal;
@@ -13,4 +11,24 @@
   text-align: right;
   letter-spacing: -0.01em;
   color: #ffffff;
+}
+
+.heroImage img {
+  position: relative;
+  /* max-width: 330px;
+  max-height: 420px; */
+  /* max-width: 1.222vw;
+  max-height: 46.667vh; */
+  /* display: block; */
+  margin-top: -30vh;
+  width: 100vw;
+  opacity: 0.6;
+  height: auto;
+}
+
+.heroText {
+  width: 49.167vw;
+  position: absolute;
+  left: 40vw;
+  top: 40vh;
 }
