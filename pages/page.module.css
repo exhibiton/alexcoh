@@ -249,7 +249,7 @@
 }
 
 .nutritionSection {
-  margin-top: -76px;
+  margin-top: -8vh;
   display: flex;
   flex: 1;
   flex-direction: row;
@@ -314,7 +314,7 @@
   display: flex;
   flex: 1;
   flex-direction: row;
-  margin-top: -76px;
+  margin-top: -8vh;
 }
 
 .moreButtonDivRight {
