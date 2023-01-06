@@ -1,127 +1,88 @@
-.heroTitle {
-  width: 708px;
-  height: 144px;
-
+.navigationLink {
   font-family: 'Readex Pro';
   font-style: normal;
-  font-weight: 200;
-  font-size: 64px;
-  line-height: 72px;
-  /* or 112% */
-  text-align: right;
-  letter-spacing: -0.01em;
-  color: #ffffff;
-}
-
-.heroImage img {
-  position: relative;
-  margin-top: -40vh;
-  width: 100vw;
-  opacity: 0.6;
-  height: auto;
-  z-index: 0;
-}
-
-.heroText {
-  width: 708px;
-  position: absolute;
-  right: 10vw;
-  top: 40vh;
-  z-index: 2;
-}
-
-.heroSpacer {
-  position: absolute;
-  width: 100vw;
-  height: 240px;
-  left: 0px;
-  top: 108vh;
-
-  background: linear-gradient(180deg, #050507 0%, rgba(5, 5, 7, 0) 100%);
-  mix-blend-mode: normal;
-  transform: matrix(1, 0, 0, -1, 0, 0);
-}
-
-.contactButton {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding: 60px;
-
-  width: 258px;
-  height: 143px;
-  position: position;
-  background: #2e0db3;
-
-  font-family: 'Readex Pro';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
   /* identical to box height */
-
-  text-transform: uppercase;
-
-  color: #ffffff;
-  margin-top: 45vh;
+  color: #d8d5e2;
 }
 
-.servicesSection {
+.servicesNavigation {
+  padding-top: 20vh;
+  padding-bottom: 13vh;
+}
+
+.servicesNavigationLinks {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 50vh;
+  flex: 1;
+  flex-direction: row;
+  margin-left: 25vw;
 }
 
-.servicesSection div {
-  margin-bottom: 40px;
+.navigationLink {
+  margin-right: 20px;
 }
 
-.servicesTitle {
+.mainContainer {
+  margin-top: -45vh;
+  margin-left: 25vw;
+  margin-right: 10vw;
+}
+
+.mainTitle {
   font-family: 'Readex Pro';
   font-style: normal;
-  font-weight: 300;
-  font-size: 4.444vw;
-  line-height: 5vw;
-  /* or 112% */
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 72px;
+  /* or 133% */
 
   letter-spacing: -0.01em;
-  z-index: 2;
-
   color: #ffffff;
 }
 
-.servicesText {
-  z-index: 999;
-  width: 58.681vw;
+.coachingOne  {
 }
 
-.servicesSubtitle {
+.coachingOne img {
+  width: 63vw;
+  height: auto;
+}
+
+.mainBody {
+  margin-left: 25vw;
+  margin-right: 10vw;
+  margin-top: 20vh;
+}
+
+.mainBodyText {
   font-family: 'Readex Pro';
   font-style: normal;
   font-weight: 200;
-  font-size: 2.222vw;
-  line-height: 3.611vw;
-  /* or 162% */
+  font-size: 32px;
+  line-height: 48px;
+  /* or 150% */
 
   letter-spacing: -0.01em;
 
   color: #d8d5e2;
-  z-index: 999;
 }
 
-.cohIcon {
-  position: relative;
-  margin-top: -1100px;
-  z-index: 0;
-}
+.getInTouch {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 4.5vw;
+  line-height: 5vw;
+  /* identical to box height, or 112% */
 
-.cohIcon img {
-  position: relative;
+  letter-spacing: -0.01em;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
 
-  width: 100vw;
-  height: auto;
-  z-index: 0;
+  color: #958b69;
 }

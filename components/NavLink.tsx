@@ -32,12 +32,23 @@ export interface NavLinkProps extends LinkProps {
 
 export function NavLink({ children, href, ...props }: NavLinkProps) {
   const router = useRouter()
-  const isActive = router.pathname === href
-  return (
-    <div
-      // Change style depending on whether the link is active
-      className={isActive ? styles.activeNavLink : styles.navLink}>
-      <Link href={`${href}`}>{children}</Link>
-    </div>
-  )
+  if (href === '/') {
+    const isActive = router.pathname === href
+    return (
+      <div
+        // Change style depending on whether the link is active
+        className={isActive ? styles.activeNavLink : styles.navLink}>
+        <Link href={`${href}`}>{children}</Link>
+      </div>
+    )
+  } else {
+    const isActive = router.pathname.includes(href)
+    return (
+      <div
+        // Change style depending on whether the link is active
+        className={isActive ? styles.activeNavLink : styles.navLink}>
+        <Link href={`${href}`}>{children}</Link>
+      </div>
+    )
+  }
 }

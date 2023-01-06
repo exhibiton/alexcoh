@@ -1,0 +1,30 @@
+.activeNavLink {
+  /* text */
+
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7vw;
+  line-height: 2vw;
+  /* identical to box height, or 133% */
+
+  /* active color: #958B69; */
+  color: #958b69;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+
+  /* Inside auto layout */
+}
+
+.navLink {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7vw;
+  line-height: 2vw;
+  /* or 133% */
+
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}

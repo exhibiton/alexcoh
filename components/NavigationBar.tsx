@@ -15,7 +15,7 @@ export default function NavigationBar() {
               <NavLink href="/about">About</NavLink>
             </div>
             <div>
-              <NavLink href="/services">Services</NavLink>
+              <NavLink href="/services/coaching">Services</NavLink>
             </div>
             <div>
               <NavLink href="/contact">Contact</NavLink>
