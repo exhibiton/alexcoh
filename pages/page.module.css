@@ -379,8 +379,8 @@
   font-family: 'Readex Pro';
   font-style: normal;
   font-weight: 200;
-  font-size: 64px;
-  line-height: 72px;
+  font-size: 4.5vw;
+  line-height: 5vw;
   /* identical to box height, or 112% */
 
   letter-spacing: -0.01em;
@@ -413,8 +413,8 @@
   font-family: 'Readex Pro';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 1.7vw;
+  line-height: 2.1vw;
   /* identical to box height */
 
   text-transform: uppercase;
@@ -426,8 +426,8 @@
   font-family: 'Readex Pro';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 1.7vw;
+  line-height: 2.1vw;
   /* identical to box height */
 
   text-transform: uppercase;
