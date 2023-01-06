@@ -21,23 +21,28 @@
 
 .navigationLogo {
   color: #ffffff;
-  width: 68px;
-  height: 68px;
   position: relative;
   margin-top: 20px;
   margin-top: 20px;
   background: #060608;
 }
 
+.navigationSpacer {
+  width: 10vw;
+}
+
 .topNav {
+  position: fixed;
+
   flex: 1;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-left: 4.167vw;
   padding-right: 4.167vw;
-  z-index: 1;
+  z-index: 9999;
   background: #060608;
+  width: 100vw;
 }
 
 .activeNavLink {

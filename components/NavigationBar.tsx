@@ -25,8 +25,12 @@ export default function NavigationBar() {
             </div>
           </div>
         </div>
+        <div className={styles.navigationSpacer}>
+          <br />
+        </div>
+
         <div className={styles.navigationLogo}>
-          <Image src="/alexCohLogo.svg" alt="Alex Coh Logo" fill={true} />
+          <Image src="/alexCohLogo.svg" alt="Alex Coh Logo" height={68} width={68} />
         </div>
       </div>
     </div>
