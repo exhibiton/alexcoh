@@ -23,12 +23,17 @@ export default function Home() {
             <Image src={cyclist} alt="Cyclist" />
           </div>
           <div className={styles.heroText}>
-            Triathlon, cycling and run coaching by <u>Alex Coh</u>
+            Triathlon, cycling and run <br />
+            coaching by <u>Alex Coh</u>
           </div>
         </div>
         <Link href="/contact">
           <div className={styles.contactButton}>Contact Now</div>
         </Link>
+        <div className={styles.cohIcon}>
+          <Image src={cohIcon} alt="Coh" />
+        </div>
+
         <div className={styles.services}>
           <div className={styles.servicesSection}>
             <div className={styles.servicesText}>
@@ -38,9 +43,6 @@ export default function Home() {
               <div className={styles.servicesSubtitle}>
                 Time to start your health and fitness journey today - discover how!
               </div>
-            </div>
-            <div className={styles.cohIcon}>
-              <Image src={cohIcon} alt="Coh" />
             </div>
           </div>
         </div>
@@ -73,7 +75,11 @@ export default function Home() {
             <Image src={nutritionPreview} alt="Nutrition" />
           </div>
 
-          <div className={styles.nutritionText}>Nutrition Planning</div>
+          <div className={styles.nutritionText}>
+            Nutrition
+            <br />
+            Planning
+          </div>
         </div>
         <Link href={'/contact'}>
           <div className={styles.moreButton}>More</div>
@@ -98,7 +104,8 @@ export default function Home() {
         </div>
         <div className={styles.interestedSection}>
           <div className={styles.interestedSectionText}>
-            Interested in bikefitting, endurance sports coaching or nutrition planning? Look no further.
+            Interested in bikefitting, endurance sports coaching or <br />
+            nutrition planning? Look no further.
           </div>
           <div className={styles.getInTouch}>
             <Link href={'/contact'}>Get in touch</Link>
