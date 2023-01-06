@@ -21,7 +21,7 @@ export default function ServicesNutrition() {
       </div>
       <div className={styles.mainContainer}>
         <div className={styles.mainTitle}>
-          Alex Coh's nutrition planning is <br />
+          Alex Coh&apos;s nutrition planning is <br />
           custom made for every client.
         </div>
       </div>
