@@ -8,13 +8,13 @@ export default function ServicesNutrition() {
       <NavigationBar />
       <div className={styles.servicesNavigation}>
         <div className={styles.servicesNavigationLinks}>
-          <div>
+          <div className={styles.navigationLink}>
             <TabLink href="/services/coaching">Coaching</TabLink>
           </div>
-          <div>
+          <div className={styles.navigationLink}>
             <TabLink href="/services/nutrition">Nutrition Planning</TabLink>
           </div>
-          <div>
+          <div className={styles.navigationLink}>
             <TabLink href="/services/bikefit">Bikefitting</TabLink>
           </div>
         </div>
