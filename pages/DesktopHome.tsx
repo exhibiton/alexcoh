@@ -20,7 +20,7 @@ export default function Home() {
         <NavigationBar />
         <div className={styles.heroTitle}>
           <div className={styles.heroImage}>
-            <Image src={cyclist} alt="Cyclist" />
+            <Image src={cyclist} alt="Cyclist" placeholder="blur" />
           </div>
           <div className={styles.heroText}>
             Triathlon, cycling and run <br />
@@ -49,7 +49,7 @@ export default function Home() {
         <div className={styles.coachingSection}>
           <div className={styles.coachingText}>Coaching</div>
           <div className={styles.coachingPicture}>
-            <Image src={coachingPreview} alt="Coaching" />
+            <Image src={coachingPreview} alt="Coaching" placeholder="blur" />
           </div>
           <div className={styles.coachingIcon}>
             <Image src={coachingIcon} alt="Coaching Icon" />
@@ -67,7 +67,7 @@ export default function Home() {
             <Image src={nutritionIcon} alt="Nutrition Icon" />
           </div>
           <div className={styles.nutritionPicture}>
-            <Image src={nutritionPreview} alt="Nutrition" />
+            <Image src={nutritionPreview} alt="Nutrition" placeholder="blur" />
           </div>
           <div>
             <div className={styles.moreButtonDiv}>
@@ -92,7 +92,7 @@ export default function Home() {
             </Link>
           </div>
           <div className={styles.bikefittingPicture}>
-            <Image src={bikefittingPreview} alt="bikefitting" />
+            <Image src={bikefittingPreview} alt="bikefitting" placeholder="blur" />
           </div>
           <div className={styles.bikefittingIcon}>
             <Image src={bikefittingIcon} alt="bikefitting Icon" />
@@ -116,7 +116,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.imgCarouselSection}>
-          <Image src={imgcarousel} alt="Images" />
+          <Image src={imgcarousel} alt="Images" placeholder="blur" />
         </div>
         <div className={styles.testimonialsSection}>
           <div className={styles.testimonialsText}>Featured at:</div>

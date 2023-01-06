@@ -21,13 +21,13 @@ export default function AboutDesktop() {
       <div className={styles.carouselSection}>
         <div className={styles.carousel}>
           <div className={styles.carouselPicture}>
-            <Image src={about1} alt="About 1" />
+            <Image src={about1} alt="About 1" placeholder="blur" />
           </div>
           <div className={styles.carouselPicture}>
             <Image src={about2} alt="About 2" />
           </div>
           <div className={styles.carouselPicture}>
-            <Image src={about3} alt="About 3" />
+            <Image src={about3} alt="About 3" placeholder="blur" />
           </div>
           <div className={styles.carouselPicture}>
             <Image src={about4} alt="About 4" />
@@ -38,13 +38,13 @@ export default function AboutDesktop() {
             <Image src={about5} alt="About 5" />
           </div>
           <div className={styles.carouselPicture}>
-            <Image src={about6} alt="About 6" />
+            <Image src={about6} alt="About 6" placeholder="blur" />
           </div>
           <div className={styles.carouselPicture}>
             <Image src={about2} alt="About 7" />
           </div>
           <div className={styles.carouselPicture}>
-            <Image src={about8} alt="About 8" />
+            <Image src={about8} alt="About 8" placeholder="blur" />
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@ export default function AboutDesktop() {
         beginners to World tour cyclists.
       </div>
       <div className={styles.contentPicture}>
-        <Image src={aboutcontent1} alt="About Content 1" />
+        <Image src={aboutcontent1} alt="About Content 1" placeholder="blur" />
       </div>
       <div className={styles.mainText}>
         It has been a similar story with bikefitting. I had a life threatening accident 6 years ago which has
@@ -91,7 +91,7 @@ export default function AboutDesktop() {
         learned to my own position and things changed dramatically.
       </div>
       <div className={styles.contentPicture}>
-        <Image src={aboutcontent2} alt="About Content 2" />
+        <Image src={aboutcontent2} alt="About Content 2" placeholder="blur" />
       </div>
       <div className={styles.mainText}>
         I learned to correct the imbalances caused by deactivated muscles, to increase information flow in the
