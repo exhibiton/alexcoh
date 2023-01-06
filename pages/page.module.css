@@ -1,10 +1,9 @@
 .heroTitle {
-  position: absolute;
   width: 708px;
   height: 144px;
   left: 572px;
   top: 304px;
-  
+
   font-family: 'Readex Pro';
   font-style: normal;
   font-weight: 200;
@@ -13,5 +12,5 @@
   /* or 112% */
   text-align: right;
   letter-spacing: -0.01em;
-  color: #FFFFFF; 
+  color: #ffffff;
 }

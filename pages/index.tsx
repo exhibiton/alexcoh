@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Failup Ventures</title>
+        <title>Alex Coh Triathlon, Cycling and Run Coaching</title>
         <meta
           name="description"
-          content="We're entrepreneurial investors from the next generation. Failup Ventures invests in early-stage startups in the US and Nordics."
+          content="Alex Coh provides premium endurance coaching in Triathlon, Cycling and Running."
         />
       </Head>
       <MediaContextProvider disableDynamicMediaQueries>

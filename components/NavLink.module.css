@@ -1,0 +1,49 @@
+.activeNavLink {
+  /* text */
+
+  width: 52px;
+  height: 24px;
+
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  margin-right: 6rem;
+
+  /* active color: #958B69; */
+  color: #958b69;
+  text-decoration: underline;
+  text-underline-offset: 40px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.navLink {
+  /* text */
+
+  width: 52px;
+  height: 24px;
+
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  margin-right: 6rem;
+
+  /* active color: #958B69; */
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

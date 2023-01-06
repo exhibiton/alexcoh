@@ -1,0 +1,110 @@
+.navigation {
+  /* Auto layout */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 40px;
+  height: 104px;
+  left: 0px;
+  top: 0px;
+
+  background: #060608;
+}
+
+.navigationLinks {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  height: 24px;
+  /* Inside auto layout */
+}
+
+.navigationLogo {
+  color: #ffffff;
+  width: 4.722vw;
+  height: 4.722vw;
+  position: relative;
+  margin-top: 3.111vh;
+}
+
+.topNav {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 4.167vw;
+  margin-right: 4.167vw;
+}
+
+.activeNavLink {
+  /* text */
+
+  width: 52px;
+  height: 24px;
+
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  margin-right: 6rem;
+
+  /* active color: #958B69; */
+  color: #958b69;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.activeNavLink {
+  /* text */
+
+  width: 52px;
+  height: 24px;
+
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  margin-right: 6rem;
+
+  /* active color: #958B69; */
+  color: #958b69;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.navLink {
+  /* text */
+
+  width: 52px;
+  height: 24px;
+
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  margin-right: 6rem;
+
+  /* active color: #958B69; */
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
