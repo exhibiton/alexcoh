@@ -194,6 +194,7 @@
 }
 
 .nutritionText {
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -203,6 +204,7 @@
   font-weight: 300;
   font-size: 3vw;
   line-height: 4vw;
+  margin-top: -8vh;
   /* identical to box height, or 135% */
 
   text-align: center;
@@ -250,13 +252,14 @@
 }
 
 .nutritionSection {
-  margin-top: -8vh;
   display: flex;
   flex: 1;
   flex-direction: row;
 }
 
 .bikefittingText {
+  height: 100%;
+  margin-top: -8vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -272,6 +275,7 @@
   letter-spacing: -0.01em;
 
   color: #d8d5e2;
+  z-index: 0;
 }
 
 .bikefittingPicture {
@@ -315,7 +319,6 @@
   display: flex;
   flex: 1;
   flex-direction: row;
-  margin-top: -8vh;
 }
 
 .moreButtonDivRight {
@@ -349,6 +352,7 @@
   color: #ffffff;
 
   background: #2e0db3;
+  z-index: 9999;
 }
 
 .moreButton:hover {

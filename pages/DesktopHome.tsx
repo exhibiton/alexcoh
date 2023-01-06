@@ -58,11 +58,6 @@ export default function Home() {
             {`Alex Coh's`} coaching system has evolved through in excess of 22 years...
           </div>
         </div>
-        <div className={styles.moreButtonDiv}>
-          <Link href={'/contact'}>
-            <div className={styles.moreButton}>More</div>
-          </Link>
-        </div>
 
         <div className={styles.nutritionSection}>
           <div className={styles.nutritionDescription}>
@@ -74,19 +69,28 @@ export default function Home() {
           <div className={styles.nutritionPicture}>
             <Image src={nutritionPreview} alt="Nutrition" />
           </div>
+          <div>
+            <div className={styles.moreButtonDiv}>
+              <Link href={'/contact'}>
+                <div className={styles.moreButton}>More</div>
+              </Link>
+            </div>
 
-          <div className={styles.nutritionText}>
-            Nutrition
-            <br />
-            Planning
+            <div className={styles.nutritionText}>
+              Nutrition
+              <br />
+              Planning
+            </div>
           </div>
         </div>
-        <Link href={'/contact'}>
-          <div className={styles.moreButton}>More</div>
-        </Link>
 
         <div className={styles.bikefittingSection}>
-          <div className={styles.bikefittingText}>Bikefitting</div>
+          <div>
+            <Link href={'/contact'}>
+              <div className={styles.moreButton}>More</div>
+              <div className={styles.bikefittingText}>Bikefitting</div>
+            </Link>
+          </div>
           <div className={styles.bikefittingPicture}>
             <Image src={bikefittingPreview} alt="bikefitting" />
           </div>
