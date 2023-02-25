@@ -24,7 +24,7 @@ export default function ServicesNutrition() {
         </div>
       </div>
       <div className={styles.coachingOne}>
-        <Image src={nutrition1} alt="Nutrition Services" />
+        <Image src={nutrition1} alt="Nutrition Services" placeholder="blur" />
       </div>
 
       <div className={styles.mainContainer}>

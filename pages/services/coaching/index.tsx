@@ -24,7 +24,7 @@ export default function ServicesCoaching() {
         </div>
       </div>
       <div className={styles.coachingOne}>
-        <Image src={coaching1} alt="Coaching Services" />
+        <Image src={coaching1} alt="Coaching Services" placeholder="blur" />
       </div>
 
       <div className={styles.mainContainer}>
