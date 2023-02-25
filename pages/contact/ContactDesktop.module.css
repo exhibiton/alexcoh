@@ -88,6 +88,13 @@
   color: #55555c;
 }
 
+.formInput input:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
 .getInTouch {
   font-family: 'Readex Pro';
   font-style: normal;
