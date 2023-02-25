@@ -9,6 +9,10 @@
 }
 
 .servicesNavigation {
+  position: fixed;
+  height: 32.8vw;
+  background-color: #2e0db2;
+  width: 18vw;
   padding-top: 20vh;
   padding-bottom: 13vh;
 }
@@ -16,16 +20,17 @@
 .servicesNavigationLinks {
   display: flex;
   flex: 1;
-  flex-direction: row;
-  margin-left: 25vw;
+  flex-direction: column;
+  margin-left: 4vw;
 }
 
 .navigationLink {
   margin-right: 20px;
+  margin-bottom: 4vw;
 }
 
 .mainContainer {
-  margin-top: -40vh;
+  margin-top: -30vh;
   margin-left: 25vw;
   margin-right: 10vw;
 }
@@ -54,6 +59,12 @@
   margin-left: 25vw;
   margin-right: 10vw;
   margin-top: 35vh;
+}
+
+.secondBody {
+  margin-left: 25vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
 }
 
 .mainBodyText {
@@ -85,4 +96,85 @@
   text-underline-offset: 10px;
 
   color: #958b69;
+}
+
+.carouselSection {
+  padding-top: 80px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.carousel {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-bottom: -4px;
+}
+
+.carouselPicture {
+  margin: 0;
+  padding: 0;
+}
+
+.carouselText {
+  width: 25vw;
+  height: auto;
+  color: white;
+  background: #2e0db3;
+}
+.carouselDarkText {
+  width: 25vw;
+  height: auto;
+  color: white;
+}
+
+.carouselTextTitle {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+  padding: 5.333vw;
+}
+
+.carouselTextContent {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+  padding-left: 5.333vw;
+  padding-right: 5.333vw;
+  padding-bottom: 5.333vw;
+}
+
+.carouselPicture img {
+  width: 25vw;
+  height: auto;
+}
+
+.carouselPrice {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.carouselPriceBold {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  padding-left: 5.333vw;
+  color: #ffffff;
 }
