@@ -31,7 +31,7 @@ export default function ServicesNutrition() {
 
       <div className={styles.mainContainer}>
         <div className={styles.mainTitle}>
-          Alex Coh's nutrition planning is <br />
+          {`Alex Coh's nutrition planning is`} <br />
           custom made for every client.
         </div>
       </div>
