@@ -9,7 +9,7 @@
   flex: 1;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 120px;
+  padding-top: 56px;
   margin-left: 48px;
 }
 
@@ -20,22 +20,21 @@
 }
 
 .navigationIcon {
-  position: absolute;
-  top: 140px;
-  left: 320vw;
-  width: 50%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+  margin-left: 64px;
 }
 
 .cohIcon img {
-  position: absolute;
-  top: 90px;
-  left: 96px;
-  width: 50%;
+  width: 64px;
   height: auto;
 }
 
 .navigationIcon img {
-  width: 100%;
+  width: 64px;
   height: auto;
 }
 

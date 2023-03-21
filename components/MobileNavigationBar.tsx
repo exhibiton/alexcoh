@@ -5,7 +5,7 @@ import navigationLink from '../public/navigationLink.svg'
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.navigationContainer}>
         <div className={styles.cohIcon}>
           <Image src={cohIcon} alt="Coh" />
