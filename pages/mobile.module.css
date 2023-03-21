@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heroTitle {
+}
+
+.heroImage {
+  z-index: 1;
+}
+
+.heroImage img {
+  z-index: 1;
+  width: 1000%;
+  height: auto;
+  position: absolute;
+  position: absolute;
+  left: -1200px;
+  top: 5px;
+  opacity: 0.6;
+}
+
+.heroText {
+  position: relative;
+  z-index: 9999;
+  width: 1400px;
+  margin-top: 1300px;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 196px;
+  line-height: 110%;
+  /* or 53px */
+  letter-spacing: -0.01em;
+  margin-left: 50vw;
+  color: #ffffff;
+}
+
+.contactNow {
+  position: relative;
+  z-index: 9999;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  margin-top: 200px;
+
+  width: 900px;
+  height: 400px;
+
+  background: #2e0db3;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 86px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.contactNow:hover {
+  background-color: #958b69;
+}

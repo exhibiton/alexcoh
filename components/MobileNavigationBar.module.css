@@ -1,0 +1,44 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.navigationContainer {
+  width: 100vw;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 120px;
+  margin-left: 48px;
+}
+
+.cohIcon {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.navigationIcon {
+  position: absolute;
+  top: 140px;
+  left: 320vw;
+  width: 50%;
+}
+
+.cohIcon img {
+  position: absolute;
+  top: 90px;
+  left: 96px;
+  width: 50%;
+  height: auto;
+}
+
+.navigationIcon img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+}
