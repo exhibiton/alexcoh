@@ -70,3 +70,48 @@
 .contactNow:hover {
   background-color: #958b69;
 }
+
+.midsection {
+  width: 100%;
+  margin-top: 280px;
+  margin-left: 140px;
+}
+
+.cohBackground img {
+  position: absolute;
+  width: 690px;
+  height: auto;
+  left: 20px;
+  top: 800px;
+}
+
+.midTitle {
+  position: relative;
+
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 120%;
+  /* or 38px */
+
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}
+
+.midBody {
+  width: 100%;
+  margin-top: 30px;
+  position: relative;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 140%;
+  /* or 34px */
+
+  letter-spacing: -0.01em;
+
+  color: #d8d5e2;
+}
