@@ -6,12 +6,13 @@ import Link from 'next/link'
 import cohMobile from '../public/cohmobile.svg'
 import Navbar from '../components/mobil/common/Navbar'
 import HomePage from './HomePage'
-
+import MobileAboutFrom from './MobileAboutForm'
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <HomePage />
+      {/* <HomePage /> */}
+      <MobileAboutFrom />
     </div>
   )
 }
