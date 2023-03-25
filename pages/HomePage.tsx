@@ -14,7 +14,6 @@ function HomePage() {
       <Coaching />
       <GetInTouch />
       <Featured />
-      <MobileFooter />
     </>
   )
 }
