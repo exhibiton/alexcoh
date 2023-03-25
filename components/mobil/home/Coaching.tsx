@@ -11,7 +11,7 @@ function Coaching() {
         </div>
         <div className="py-30 bg-primery -mt-4">
           <p className="para text-white  px-30">
-            Alex Coh's coaching system has evolved through in excess of 22 years...
+            Alex Coh&lsquo;s coaching system has evolved through in excess of 22 years...
           </p>
         </div>
         <MoreBtn />
@@ -20,7 +20,7 @@ function Coaching() {
         </div>
         <div className="py-30 bg-primery -mt-4">
           <p className="para text-white  px-30">
-            Alex Coh's nutrition planning is custom made for every client...{' '}
+            Alex Coh&lsquo;s nutrition planning is custom made for every client...{' '}
           </p>
         </div>
         <MoreBtn />
