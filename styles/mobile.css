@@ -234,6 +234,10 @@
 
   width: 100%;
 }
+.fixed-screen {
+  height: 100vh;
+  overflow: hidden;
+}
 .sidebar-style {
   width: 100%;
   position: fixed;
