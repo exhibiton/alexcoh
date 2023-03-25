@@ -1,12 +1,19 @@
 import React from 'react'
 import { CrossIcon, FbIcon, InstaIcon } from '../common/Icon'
 
-function Sidebar() {
+interface IProps {
+  setSidebarOpen: Function
+  isSidebarOpen: boolean
+}
+
+function Sidebar(props: IProps) {
+  const { setSidebarOpen, isSidebarOpen } = props
+
   return (
     <>
-      <div className="sidebaer">
+      <div className={`sidebar-style ${isSidebarOpen ? 'open' : ''}`}>
         <div>
-          <div className="cut-btn">
+          <div className="cut-btn" onClick={() => setSidebarOpen(false)}>
             <CrossIcon />
           </div>
           <div className="menu-list">

@@ -234,19 +234,28 @@
 
   width: 100%;
 }
-.sidebaer {
+.sidebar-style {
   width: 100%;
+  position: fixed;
+  left: -100%;
+  top: 0;
+  background-color: #000;
   padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh;
+  height: 100vh;
+  z-index: 100;
+  transition: all 0.3s ease-in;
 }
-.sidebaer .cut-btn {
+.sidebar-style.open {
+  left: 0%;
+}
+.sidebar-style .cut-btn {
   display: flex;
   justify-content: end;
 }
-.sidebaer .menu-list {
+.sidebar-style .menu-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -254,15 +263,15 @@
   margin-top: 40px;
   margin-bottom: 60px;
 }
-.sidebaer .menu-list ul {
+.sidebar-style .menu-list ul {
   list-style: none;
   padding-left: 0%;
 }
-.sidebaer .menu-list ul li {
+.sidebar-style .menu-list ul li {
   margin-top: 24px;
   text-align: center;
 }
-.sidebaer .menu-list ul li a {
+.sidebar-style .menu-list ul li a {
   font-family: 'Readex Pro';
   font-style: normal;
   font-weight: 300;
@@ -270,10 +279,10 @@
   transition: all 0.3s ease-in-out;
   color: #ffffff;
 }
-.sidebaer .menu-list ul li a:hover {
+.sidebar-style .menu-list ul li a:hover {
   color: #958b69;
 }
-.sidebaer .media-icons {
+.sidebar-style .media-icons {
   display: flex;
   justify-content: space-between;
   width: 200px;

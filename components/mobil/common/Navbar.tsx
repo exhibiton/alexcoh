@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { LogoIcon, MenuIcon } from './Icon'
-import Sidebar from './Sidebar'
+import Sidebar from '../sidebar/Sidebar'
 
 function Navbar() {
   const [isSidebarOpen, setSidebarOpen] = useState(false)
@@ -15,7 +15,7 @@ function Navbar() {
           <MenuIcon />
         </span>
       </div>
-      {/* <Sidebar setSidebarOpen={setSidebarOpen} isSidebarOpen={isSidebarOpen} /> */}
+      <Sidebar setSidebarOpen={setSidebarOpen} isSidebarOpen={isSidebarOpen} />
     </>
   )
 }
