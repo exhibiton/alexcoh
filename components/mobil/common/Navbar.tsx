@@ -1,17 +1,22 @@
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import { LogoIcon, MenuIcon } from './Icon'
+import Sidebar from './Sidebar'
 
 function Navbar() {
+  const [isSidebarOpen, setSidebarOpen] = useState(false)
   return (
-    <div className="mob-nav  my-container">
-      <Link rel="stylesheet" href="#">
-        <LogoIcon />
-      </Link>{' '}
-      <span>
-        <MenuIcon />
-      </span>
-    </div>
+    <>
+      <div className="mob-nav  my-container">
+        <Link rel="stylesheet" href="#">
+          <LogoIcon />
+        </Link>{' '}
+        <span onClick={() => setSidebarOpen(true)}>
+          <MenuIcon />
+        </span>
+      </div>
+      {/* <Sidebar setSidebarOpen={setSidebarOpen} isSidebarOpen={isSidebarOpen} /> */}
+    </>
   )
 }
 

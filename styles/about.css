@@ -1,0 +1,120 @@
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-24 {
+  margin-top: 20px;
+}
+.about_interested {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 33px;
+  color: #d8d5e2;
+  margin-top: 40px;
+  letter-spacing: -0.01em;
+}
+.about_btn_common {
+  padding: 16px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #141419;
+  border: 0px;
+  margin-right: 5px;
+}
+.about_btn_common:hover {
+  background-color: #2e0db2;
+}
+.btn_resp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+.about_input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  width: 250px;
+  height: 48px;
+  line-height: 48px;
+  margin-top: 24px;
+  margin-right: 5px;
+  border-bottom: 1px solid #56565c;
+}
+
+.about_form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.about_form input::placeholder {
+  color: #55555c;
+}
+.about_form input[type='text']:focus {
+  border-color: #d8d5e2;
+}
+.btn_send_message {
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 38px;
+  color: #958b69;
+  border: none;
+  margin-top: 40px;
+  background: transparent;
+  padding: 0px;
+  text-decoration-line: underline;
+}
+.address_bg {
+  background-color: #2e0db2;
+  width: 100%;
+  position: relative;
+  margin-top: 80px;
+}
+.address_img {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 360px;
+
+  width: 100%;
+}
+.address_img img {
+  width: 100%;
+}
+.about_address {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0px;
+  margin-top: 32px;
+}
+.about_address_details {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 32px;
+  color: white;
+  margin-bottom: 0px;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
+.img_about {
+  position: absolute;
+  right: 0px;
+  bottom: 40px;
+}
+@media (max-width: 576px) {
+  .about_address_details {
+    max-width: 197px;
+  }
+  .about_input {
+    width: 100%;
+  }
+}
