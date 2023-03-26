@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Hero() {
@@ -9,7 +10,9 @@ function Hero() {
             Triathlon, cycling and run coaching by <span className="underline">Alex Coh</span>
           </h1>
         </div>
-        <button className="contact-btn">Contact now</button>
+        <Link href={'/contact'} passHref className="contact-btn">
+          Contact now
+        </Link>
       </div>
     </>
   )

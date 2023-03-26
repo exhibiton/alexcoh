@@ -1,5 +1,4 @@
 import React from 'react'
-import MobileFooter from '../components/mobil/common/MobileFooter'
 import Offer from '../components/mobil/common/Offer'
 import Coaching from '../components/mobil/home/Coaching'
 import Featured from '../components/mobil/home/Featured'
