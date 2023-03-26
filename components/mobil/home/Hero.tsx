@@ -6,7 +6,7 @@ function Hero() {
       <div className="hero-bg">
         <div>
           <h1 className="">
-            Triathlon, cycling and run coaching by <span>Alex Coh</span>
+            Triathlon, cycling and run coaching by <span className="underline">Alex Coh</span>
           </h1>
         </div>
         <button className="contact-btn">Contact now</button>
