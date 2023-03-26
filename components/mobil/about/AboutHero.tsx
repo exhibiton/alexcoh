@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function AboutHero() {
@@ -5,16 +6,40 @@ function AboutHero() {
     <>
       <div className="img-box">
         <div>
-          <img src="./assets/img/about1.jpg" alt="img" />
+          <Image
+            className="w-full object-cover"
+            src="/assets/img/about1.jpg"
+            alt="img"
+            width={180}
+            height={180}
+          />
         </div>{' '}
         <div>
-          <img src="./assets/img/box-2.png" alt="img" />
+          <Image
+            className="w-full object-cover"
+            src="/assets/img/box-2.png"
+            alt="img"
+            width={180}
+            height={180}
+          />
         </div>{' '}
         <div>
-          <img src="./assets/img/box3.png" alt="img" />
+          <Image
+            className="w-full object-cover"
+            src="/assets/img/box3.png"
+            alt="img"
+            width={180}
+            height={180}
+          />
         </div>{' '}
         <div>
-          <img src="./assets/img/about6.jpg" alt="img" />
+          <Image
+            className="w-full object-cover"
+            src="/assets/img/about6.jpg"
+            alt="img"
+            width={180}
+            height={180}
+          />
         </div>
       </div>
       <div className="py-30">
@@ -37,7 +62,7 @@ function AboutHero() {
       </div>
       <div className="py-30 px-30">
         <div>
-          <img src="./assets/img/track.png" className="offer-img" alt="img" />
+          <Image width={400} height={200} src="/assets/img/track.png" className="offer-img" alt="img" />
         </div>
 
         <div className="py-30">

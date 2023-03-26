@@ -104,6 +104,12 @@
 .py-30 {
   padding: 30px 0px;
 }
+.object-cover {
+  object-fit: cover;
+}
+.w-full {
+  width: 100%;
+}
 .offer-img {
   width: 100%;
   min-height: 200px;
