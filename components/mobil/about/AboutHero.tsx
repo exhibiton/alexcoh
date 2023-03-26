@@ -5,7 +5,7 @@ function AboutHero() {
     <>
       <div className="img-box">
         <div>
-          <img src="./assets/img/box1.jpg" alt="img" />
+          <img src="./assets/img/about1.jpg" alt="img" />
         </div>{' '}
         <div>
           <img src="./assets/img/box-2.png" alt="img" />
@@ -14,7 +14,7 @@ function AboutHero() {
           <img src="./assets/img/box3.png" alt="img" />
         </div>{' '}
         <div>
-          <img src="./assets/img/box4.jpg" alt="img" />
+          <img src="./assets/img/about6.jpg" alt="img" />
         </div>
       </div>
       <div className="py-30">
@@ -36,7 +36,7 @@ function AboutHero() {
         </p>
       </div>
       <div className="py-30 px-30">
-        <div className="">
+        <div>
           <img src="./assets/img/track.png" className="offer-img" alt="img" />
         </div>
 

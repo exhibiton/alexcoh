@@ -231,8 +231,6 @@
   overflow: hidden;
 }
 .img-box div img {
-  margin: -2px;
-
   width: 100%;
 }
 .fixed-screen {
