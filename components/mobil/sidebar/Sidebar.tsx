@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 import { CrossIcon, FbIcon, InstaIcon } from '../common/Icon'
 
 interface IProps {
@@ -20,22 +20,34 @@ function Sidebar(props: IProps) {
           <div className="menu-list">
             <ul>
               <li>
-                <a href="/">Home</a>
+                <Link passHref href="/">
+                  Home
+                </Link>
               </li>{' '}
               <li>
-                <a href="/about">About</a>
+                <Link passHref href="/about">
+                  About
+                </Link>
               </li>{' '}
               <li>
-                <a href="#">Services</a>
+                <Link passHref href="#">
+                  Services
+                </Link>
               </li>{' '}
               <li>
-                <a href="/testimonials">Terstimonials</a>
+                <Link passHref href="/testimonials">
+                  Terstimonials
+                </Link>
               </li>{' '}
               <li>
-                <a href="#">Blog</a>
+                <Link passHref href="#">
+                  Blog
+                </Link>
               </li>
               <li>
-                <a href="contact">Contacts</a>
+                <Link passHref href="contact">
+                  Contacts
+                </Link>
               </li>
             </ul>
           </div>

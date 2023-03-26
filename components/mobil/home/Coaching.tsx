@@ -25,7 +25,7 @@ function Coaching() {
         </div>
         <MoreBtn />
         <div className="">
-          <img src="./assets/img/coaching2.png" className="offer-img" alt="img" />
+          <img src="/assets/img/coaching2.png" className="offer-img" alt="img" />
         </div>
         <div className="py-30 bg-primery -mt-4">
           <p className="para text-white  px-30">
