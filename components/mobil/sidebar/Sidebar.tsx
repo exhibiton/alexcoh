@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { CrossIcon, FbIcon, InstaIcon } from '../common/Icon'
 
 interface IProps {
@@ -19,34 +20,34 @@ function Sidebar(props: IProps) {
           <div className="menu-list">
             <ul>
               <li>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>{' '}
               <li>
-                <a href="#">About</a>
+                <a href="/about">About</a>
               </li>{' '}
               <li>
                 <a href="#">Services</a>
               </li>{' '}
               <li>
-                <a href="#">Terstimonials</a>
+                <a href="/testimonials">Terstimonials</a>
               </li>{' '}
               <li>
                 <a href="#">Blog</a>
               </li>
               <li>
-                <a href="#">Contacts</a>
+                <a href="contact">Contacts</a>
               </li>
             </ul>
           </div>
         </div>
         <div className="media-icons">
-          <a href="#" className="">
+          <a href="#" target={'blank'} className="">
             <FbIcon />
           </a>
-          <a href="#" className="">
+          <a href="#" target={'blank'} className="">
             <InstaIcon />
           </a>
-          <a href="#" className="">
+          <a href="#" target={'blank'} className="">
             <FbIcon />
           </a>
         </div>

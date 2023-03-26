@@ -9,7 +9,7 @@ import HomePage from './HomePage'
 import MobileAboutFrom from './MobileAboutForm'
 import MobileFooter from '../components/mobil/common/MobileFooter'
 import AboutProfile from './AboutProfile'
-import AboutPage from './AboutPage'
+import AboutPage from './About'
 import Sidebar from '../components/mobil/sidebar/Sidebar'
 export default function Home() {
   return (

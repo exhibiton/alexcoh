@@ -1,7 +1,7 @@
 import React from 'react'
 import AboutHero from '../components/mobil/about/AboutHero'
 
-function AboutPage() {
+function About() {
   return (
     <>
       <AboutHero />
@@ -9,4 +9,4 @@ function AboutPage() {
   )
 }
 
-export default AboutPage
+export default About

@@ -1,7 +1,7 @@
 import React from 'react'
 import MoreBtn from './MoreBtn'
 
-function AboutProfiles() {
+function Testinonial() {
   return (
     <>
       <div className="prfile">
@@ -37,4 +37,4 @@ function AboutProfiles() {
   )
 }
 
-export default AboutProfiles
+export default Testinonial
