@@ -1,13 +1,12 @@
 import MobileFooter from '../../components/mobil/common/MobileFooter'
 import Navbar from '../../components/mobil/common/Navbar'
-import Testinonial from '../../components/mobil/common/Testinonial'
-import styles from './TestimonialsMobile.module.css'
+import Testimonols from '../../components/mobil/common/Testimonols'
 
 export default function TestimonialsMobile() {
   return (
     <div>
       <Navbar />
-      <Testinonial />
+      <Testimonols />
       <MobileFooter />
     </div>
   )

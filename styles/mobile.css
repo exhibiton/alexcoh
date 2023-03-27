@@ -221,12 +221,12 @@
   height: 1px;
   padding: 50px 30px 50px 30px;
 }
-.border-line div {
+.border-line span {
   width: 92%;
   height: 1px;
   left: 10%;
-  margin-left: 6%;
   background-color: #56565c;
+  display: inline-block;
 }
 .img-box {
   display: flex;
