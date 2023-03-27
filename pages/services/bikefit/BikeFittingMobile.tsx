@@ -1,15 +1,15 @@
 import Image from 'next/image'
 import { TabLink } from '../../../components/TabLink'
 import Link from 'next/link'
-import NavigationBar from '../../../components/NavigationBar'
 import styles from './BikeFittingMobile.module.css'
 import bikefitting from '../../../images/bikefitting.jpg'
 import FooterMobile from '../../../components/FooterMobile'
+import Navbar from '../../../components/mobil/common/Navbar'
 
 export default function BikeFittingDesktop() {
   return (
     <div>
-      <NavigationBar />
+      <Navbar />
       <div className={styles.servicesNavigation}>
         <div className={styles.servicesNavigationLinks}>
           <div className={styles.navigationLink}>

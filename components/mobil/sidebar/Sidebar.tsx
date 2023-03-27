@@ -30,20 +30,15 @@ function Sidebar(props: IProps) {
                 </Link>
               </li>{' '}
               <li>
-                <Link passHref href="#">
+                <Link passHref href="/services/coaching">
                   Services
                 </Link>
               </li>{' '}
               <li>
                 <Link passHref href="/testimonials">
-                  Terstimonials
+                  Testimonials
                 </Link>
               </li>{' '}
-              <li>
-                <Link passHref href="#">
-                  Blog
-                </Link>
-              </li>
               <li>
                 <Link passHref href="contact">
                   Contacts
