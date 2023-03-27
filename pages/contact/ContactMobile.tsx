@@ -1,9 +1,14 @@
+import MobileFooter from '../../components/mobil/common/MobileFooter'
+import Navbar from '../../components/mobil/common/Navbar'
+import MobileAboutFrom from '../MobileAboutForm'
 import styles from './ContactMobile.module.css'
 
-export default function AboutDesktop() {
+export default function ContactMobile() {
   return (
-    <div>
-      <div className={styles.heroTitle}>Contact</div>
-    </div>
+    <>
+      <Navbar />
+      <MobileAboutFrom />
+      <MobileFooter />
+    </>
   )
 }

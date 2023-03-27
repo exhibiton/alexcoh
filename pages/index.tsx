@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { Media, MediaContextProvider } from '../components/Media'
 import MobileHome from './MobileHome'
 import DesktopHome from './DesktopHome'
-
 export default function Home() {
   return (
     <>

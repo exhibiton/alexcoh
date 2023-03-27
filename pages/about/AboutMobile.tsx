@@ -1,9 +1,13 @@
-import styles from './AboutMobile.module.css'
+import AboutHero from '../../components/mobil/about/AboutHero'
+import MobileFooter from '../../components/mobil/common/MobileFooter'
+import Navbar from '../../components/mobil/common/Navbar'
 
-export default function AboutDesktop() {
+export default function AboutMobile() {
   return (
     <div>
-      <div className={styles.heroTitle}>About</div>
+      <Navbar />
+      <AboutHero />
+      <MobileFooter />
     </div>
   )
 }

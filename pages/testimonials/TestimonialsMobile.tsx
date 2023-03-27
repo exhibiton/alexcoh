@@ -1,9 +1,14 @@
+import MobileFooter from '../../components/mobil/common/MobileFooter'
+import Navbar from '../../components/mobil/common/Navbar'
+import Testinonial from '../../components/mobil/common/Testinonial'
 import styles from './TestimonialsMobile.module.css'
 
-export default function AboutDesktop() {
+export default function TestimonialsMobile() {
   return (
     <div>
-      <div className={styles.heroTitle}>Testimonials</div>
+      <Navbar />
+      <Testinonial />
+      <MobileFooter />
     </div>
   )
 }

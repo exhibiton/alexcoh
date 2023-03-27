@@ -1,6 +1,6 @@
+import styles from './ServicesMobile.module.css'
 import Link from 'next/link'
 import NavigationBar from '../../components/NavigationBar'
-import styles from './ServicesDesktop.module.css'
 
 export default function ServicesMobile() {
   return (
@@ -22,3 +22,11 @@ export default function ServicesMobile() {
     </div>
   )
 }
+
+// export default function ServicesMobile() {
+//   return (
+//     <div>
+//       <div className={styles.heroTitle}>About xdfvdf</div>
+//     </div>
+//   )
+// }
