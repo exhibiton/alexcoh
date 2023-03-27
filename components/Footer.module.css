@@ -36,3 +36,28 @@
 
   opacity: 0.85;
 }
+
+@media (max-width: 767px) {
+  .footerAddress,
+  .footerEmail {
+    font-size: 16px;
+  }
+  .footerSection {
+    color: #ffffff;
+    padding-left: 5.33vw;
+    padding-right: 5.33vw;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .footerSection .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footerHeader {
+    font-size: 12px;
+  }
+  .footerSection .flex p {
+    font-size: 10px;
+  }
+}
