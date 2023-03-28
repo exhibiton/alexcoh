@@ -1,13 +1,20 @@
 import React from 'react'
 import MoreBtn from '../common/MoreBtn'
+import Image from 'next/image'
 
 function Coaching() {
   return (
     <>
       <div className="coching-section  ">
         <h1 className="sub-heading px-30"> Coaching</h1>
-        <div className="">
-          <img src="./assets/img/track.png" className="offer-img" alt="img" />
+        <div>
+          <Image
+            height={235}
+            width={400}
+            src="/assets/img/track.png"
+            className="offer-img w-full"
+            alt="track"
+          />
         </div>
         <div className="py-30 bg-primery -mt-4">
           <p className="para text-white  px-30">
@@ -15,8 +22,14 @@ function Coaching() {
           </p>
         </div>
         <MoreBtn />
-        <div className="">
-          <img src="./assets/img/coaching1.jpg" className="offer-img" alt="img" />
+        <div>
+          <Image
+            height={235}
+            width={400}
+            src="/assets/img/coaching1.jpg"
+            className="offer-img w-full"
+            alt="img"
+          />
         </div>
         <div className="py-30 bg-primery -mt-4">
           <p className="para text-white  px-30">
@@ -24,8 +37,14 @@ function Coaching() {
           </p>
         </div>
         <MoreBtn />
-        <div className="">
-          <img src="/assets/img/coaching2.png" className="offer-img" alt="img" />
+        <div>
+          <Image
+            height={235}
+            width={400}
+            src="/assets/img/coaching2.png"
+            className="offer-img w-full"
+            alt="img"
+          />
         </div>
         <div className="py-30 bg-primery -mt-4">
           <p className="para text-white  px-30">

@@ -12,9 +12,8 @@ const FormAbout = () => {
           <div className="btn_resp">
             {interestedList &&
               interestedList.map((obj, index) => (
-                <div>
+                <div key={index}>
                   <span
-                    key={index}
                     onClick={() => handleInterested(obj)}
                     className={`about_btn_common mt-24 ${obj.selected ? 'active-blue' : ''}`}>
                     {obj.text}

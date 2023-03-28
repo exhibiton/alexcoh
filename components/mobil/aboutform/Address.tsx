@@ -1,10 +1,11 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Address = () => {
   return (
     <div className="address_bg ">
       <div className="address_img">
-        <img src="/assets/img/about-address-img.png" alt="about address img " />
+        <Image width={300} height={84} src="/assets/img/about-address-img.png" alt="about address img " />
       </div>
       <div className="px-30">
         <p className="about_address">Address</p>
@@ -12,7 +13,13 @@ const Address = () => {
         <p className="about_address">Contacts</p>
         <p className="about_address_details pb-40">+358452259190 hello@alexcoh.com</p>
       </div>
-      <img className="img_about" src="/assets/img/about-address-img-2.png" alt="about address img" />
+      <Image
+        width={79}
+        height={60}
+        className="img_about"
+        src="/assets/img/about-address-img-2.png"
+        alt="about address img"
+      />
     </div>
   )
 }

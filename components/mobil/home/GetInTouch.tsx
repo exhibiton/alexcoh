@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function GetInTouch() {
@@ -13,14 +14,14 @@ function GetInTouch() {
           </a>
         </div>
         <div className="img-slides">
-          <div className="">
-            <img src="./assets/img/coaching1.jpg" className="offer-img" alt="img" />
+          <div>
+            <Image width={300} height={200} src="/assets/img/coaching1.jpg" className="offer-img" alt="img" />
           </div>{' '}
-          <div className="">
-            <img src="./assets/img/coaching2.png" className="offer-img" alt="img" />
+          <div>
+            <Image width={300} height={200} src="/assets/img/coaching2.png" className="offer-img" alt="img" />
           </div>{' '}
-          <div className="">
-            <img src="./assets/img/track.png" className="offer-img" alt="img" />
+          <div>
+            <Image width={300} height={200} src="/assets/img/track.png" className="offer-img" alt="img" />
           </div>
         </div>
       </div>
