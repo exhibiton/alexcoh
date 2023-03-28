@@ -3,6 +3,7 @@ import styles from './ContactDesktop.module.css'
 import Image from 'next/image'
 import contact from '../../public/contact.svg'
 import Footer from '../../components/Footer'
+import Loader from '../../components/mobil/common/Loader'
 import useContactForm from '../../hooks/useContactForm'
 import { useState } from 'react'
 
@@ -120,7 +121,7 @@ export default function AboutDesktop() {
               />
             </div>
             <button type="submit" className={styles.getInTouch}>
-              Send Message
+              {isLoading ? <Loader /> : 'Send Message'}
             </button>
           </div>
           <div className={styles.bottomPicture}>
