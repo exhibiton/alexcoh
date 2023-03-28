@@ -5,57 +5,10 @@ import contact from '../../public/contact.svg'
 import Footer from '../../components/Footer'
 import Loader from '../../components/mobil/common/Loader'
 import useContactForm from '../../hooks/useContactForm'
-import { useState } from 'react'
-
-interface InterestedItem {
-  text: string
-  selected: boolean
-}
 
 export default function AboutDesktop() {
-  const { contactForm, setContactForm, isLoading, handleSubmit } = useContactForm()
-
-  const interested: InterestedItem[] = [
-    {
-      text: 'TRIATHLON COACHING',
-      selected: false,
-    },
-    {
-      text: 'CYCLING COACHING',
-      selected: false,
-    },
-    {
-      text: 'RUNNING COACHING',
-      selected: false,
-    },
-    {
-      text: 'NUTRITION PLANNING',
-      selected: false,
-    },
-    {
-      text: 'BIKEFITTING',
-      selected: false,
-    },
-  ]
-  const [interestedList, setInterestedList] = useState<InterestedItem[]>(interested)
-  const [selectedList, setSelectedList] = useState<string[]>([])
-
-  const handleInterested = (value: InterestedItem) => {
-    const data = interestedList.map((obj: InterestedItem) => {
-      if (obj.text === value.text) {
-        obj.selected = !obj.selected
-        if (obj.selected) {
-          setSelectedList([...selectedList, obj.text])
-        } else {
-          setSelectedList(selectedList.filter((item) => item !== obj.text))
-        }
-      }
-      return obj
-    })
-    setInterestedList(data)
-    console.log(selectedList, 'selectedList')
-    setContactForm({ ...contactForm, interested: selectedList.toString() })
-  }
+  const { contactForm, setContactForm, isLoading, handleSubmit, handleInterested, interestedList } =
+    useContactForm()
 
   return (
     <div>

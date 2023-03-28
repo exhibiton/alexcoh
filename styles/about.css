@@ -20,9 +20,11 @@
   line-height: 17px;
   background-color: #141419;
   border: 0px;
+  display: inline-block;
   margin-right: 5px;
 }
-.about_btn_common:hover {
+
+.about_btn_common.active-blue {
   background-color: #2e0db2;
 }
 .btn_resp {
