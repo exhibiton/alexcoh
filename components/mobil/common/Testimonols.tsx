@@ -69,7 +69,7 @@ function Testimonols() {
 
         <div className="px-30 ">
           <button onClick={() => setShowRobText(!isShowRobText)} className="more-btn">
-            {isShowMatthiasText ? 'LESS' : 'MORE'}
+            {isShowRobText ? 'LESS' : 'MORE'}
           </button>
         </div>
       </div>
@@ -102,7 +102,7 @@ function Testimonols() {
 
         <div className="px-30 ">
           <button onClick={() => setShowRobsonText(!isShowRobsonText)} className="more-btn">
-            {isShowMatthiasText ? 'LESS' : 'MORE'}
+            {isShowRobsonText ? 'LESS' : 'MORE'}
           </button>
         </div>
       </div>
@@ -180,7 +180,7 @@ function Testimonols() {
 
         <div className="px-30 ">
           <button onClick={() => setShowDavidText(!isShowDavidText)} className="more-btn">
-            {isShowMatthiasText ? 'LESS' : 'MORE'}
+            {isShowDavidText ? 'LESS' : 'MORE'}
           </button>
         </div>
       </div>

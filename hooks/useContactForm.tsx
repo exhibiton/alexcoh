@@ -5,7 +5,7 @@ init('0OD6TpBjNB_JW4m4k')
 
 export default function useContactForm() {
   const initialState = {
-    interested: [],
+    interested: '',
     name: '',
     email: '',
     phone: '',
@@ -35,5 +35,6 @@ export default function useContactForm() {
         Swal.fire('Oops!', 'Failed to submit form, Please Try again!', 'error')
       })
   }
+
   return { contactForm, setContactForm, isLoading, handleSubmit }
 }

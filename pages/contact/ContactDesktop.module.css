@@ -57,6 +57,26 @@
 
   color: #ffffff;
 }
+.activeinteteredbtn {
+  background-color: #2e0db3;
+  cursor: pointer;
+  border: 0;
+  justify-content: center;
+  margin-right: 8px;
+  padding: 24px;
+  height: 71px;
+  /* Inside auto layout */
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
 
 .formInput {
   flex: 1;
