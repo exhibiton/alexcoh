@@ -38,6 +38,8 @@
 }
 
 .interestBtn {
+  cursor: pointer;
+  border: 0;
   justify-content: center;
   margin-right: 8px;
   padding: 24px;
@@ -107,8 +109,10 @@
   text-decoration-line: underline;
   text-decoration-thickness: 3px;
   text-underline-offset: 10px;
-
+  cursor: pointer;
   color: #958b69;
+  background-color: transparent;
+  border: 0;
 }
 
 .bottomPicture img {
