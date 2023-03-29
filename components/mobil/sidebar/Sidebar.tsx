@@ -40,8 +40,8 @@ function Sidebar(props: IProps) {
                 </Link>
               </li>{' '}
               <li>
-                <Link passHref href="contact">
-                  Contacts
+                <Link passHref href="/contact">
+                  Contact
                 </Link>
               </li>
             </ul>
