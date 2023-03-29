@@ -71,7 +71,7 @@ export default function Home() {
           </div>
           <div>
             <div className={styles.moreButtonDiv}>
-              <Link href={'/contact'}>
+              <Link href={'/services/coaching'}>
                 <div className={styles.moreButton}>More</div>
               </Link>
             </div>
@@ -86,10 +86,10 @@ export default function Home() {
 
         <div className={styles.bikefittingSection}>
           <div>
-            <Link href={'/contact'}>
+            <Link href={'/services/nutrition'}>
               <div className={styles.moreButton}>More</div>
-              <div className={styles.bikefittingText}>Bikefitting</div>
             </Link>
+            <div className={styles.bikefittingText}>Bikefitting</div>
           </div>
           <div className={styles.bikefittingPicture}>
             <Image src={bikefittingPreview} alt="bikefitting" placeholder="blur" />
@@ -102,7 +102,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.moreButtonDiv}>
-          <Link href={'/contact'}>
+          <Link href={'/services/bikefit'}>
             <div className={styles.moreButton}>More</div>
           </Link>
         </div>

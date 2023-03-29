@@ -1,6 +1,7 @@
 import React from 'react'
 import MoreBtn from '../common/MoreBtn'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function Coaching() {
   return (
@@ -21,7 +22,10 @@ function Coaching() {
             Alex Coh&lsquo;s coaching system has evolved through in excess of 22 years...
           </p>
         </div>
-        <MoreBtn />
+        <Link href={'/services/coaching'}>
+          <MoreBtn />
+        </Link>
+
         <div>
           <Image
             height={235}
@@ -36,7 +40,9 @@ function Coaching() {
             Alex Coh&lsquo;s nutrition planning is custom made for every client...{' '}
           </p>
         </div>
-        <MoreBtn />
+        <Link href={'/services/nutrition'}>
+          <MoreBtn />
+        </Link>
         <div>
           <Image
             height={235}
@@ -51,7 +57,9 @@ function Coaching() {
             Alex Coh has developed bikefitting methods over many years of intensive learning...{' '}
           </p>
         </div>
-        <MoreBtn />
+        <Link href={'/services/bikefit'}>
+          <MoreBtn />
+        </Link>
       </div>
     </>
   )

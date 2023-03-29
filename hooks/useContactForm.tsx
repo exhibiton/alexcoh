@@ -79,12 +79,12 @@ export default function useContactForm() {
       })
       .then(() => {
         setLoading(false)
-        Swal.fire('Great!', 'Thank you for get in touch!', 'success')
+        Swal.fire('Contact Request Sent!', 'We will be in touch as soon as possible via email.', 'success')
       })
       .catch((e) => {
         console.log(e)
         setLoading(false)
-        Swal.fire('Oops!', 'Failed to submit form, Please Try again!', 'error')
+        Swal.fire('Oops!', 'Failed to submit form, please Try again!', 'error')
       })
   }
 
