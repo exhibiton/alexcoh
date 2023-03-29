@@ -38,11 +38,33 @@
 }
 
 .interestBtn {
+  cursor: pointer;
+  border: 0;
   justify-content: center;
   margin-right: 8px;
   padding: 24px;
   height: 71px;
   background: #141419;
+  /* Inside auto layout */
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.activeinteteredbtn {
+  background-color: #2e0db3;
+  cursor: pointer;
+  border: 0;
+  justify-content: center;
+  margin-right: 8px;
+  padding: 24px;
+  height: 71px;
   /* Inside auto layout */
   font-family: 'Readex Pro';
   font-style: normal;
@@ -107,8 +129,10 @@
   text-decoration-line: underline;
   text-decoration-thickness: 3px;
   text-underline-offset: 10px;
-
+  cursor: pointer;
   color: #958b69;
+  background-color: transparent;
+  border: 0;
 }
 
 .bottomPicture img {
