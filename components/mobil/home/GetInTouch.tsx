@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import coaching1 from '../../../public/assets/img/coaching1.jpg'
+import coaching1 from '../../../public/assets/img/about3.jpg'
 import coaching2 from '../../../public/assets/img/coaching2.png'
 import track from '../../../public/assets/img/track.png'
 
@@ -18,14 +18,7 @@ function GetInTouch() {
         </div>
         <div className="img-slides">
           <div>
-            <Image
-              width={300}
-              height={200}
-              src={coaching1}
-              placeholder="blur"
-              className="offer-img"
-              alt="img"
-            />
+            <Image width={300} height={200} src={track} className="offer-img" alt="img" />
           </div>{' '}
           <div>
             <Image
@@ -38,7 +31,14 @@ function GetInTouch() {
             />
           </div>{' '}
           <div>
-            <Image width={300} height={200} src="/assets/img/track.png" className="offer-img" alt="img" />
+            <Image
+              width={300}
+              height={200}
+              src={coaching1}
+              placeholder="blur"
+              className="offer-img"
+              alt="img"
+            />
           </div>
         </div>
       </div>

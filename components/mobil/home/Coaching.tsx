@@ -2,6 +2,8 @@ import React from 'react'
 import MoreBtn from '../common/MoreBtn'
 import Image from 'next/image'
 import Link from 'next/link'
+import coaching1 from '../../../public/assets/img/coaching1.jpg'
+import coaching2 from '../../../public/assets/img/coaching2.png'
 
 function Coaching() {
   return (
@@ -30,7 +32,8 @@ function Coaching() {
           <Image
             height={235}
             width={400}
-            src="/assets/img/coaching1.jpg"
+            src={coaching1}
+            placeholder="blur"
             className="offer-img w-full"
             alt="img"
           />
@@ -47,7 +50,8 @@ function Coaching() {
           <Image
             height={235}
             width={400}
-            src="/assets/img/coaching2.png"
+            src={coaching2}
+            placeholder="blur"
             className="offer-img w-full"
             alt="img"
           />
