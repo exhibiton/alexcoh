@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { CrossIcon, FbIcon, InstaIcon } from '../common/Icon'
+import { CrossIcon, FbIcon, InstaIcon, WhatsAppIcon } from '../common/Icon'
 
 interface IProps {
   setSidebarOpen: Function
@@ -48,14 +48,14 @@ function Sidebar(props: IProps) {
           </div>
         </div>
         <div className="media-icons">
-          <a href="#" target={'blank'} className="">
-            <FbIcon />
-          </a>
-          <a href="#" target={'blank'} className="">
+          <a href="https://www.instagram.com/alex_coh_coaching/" target={'blank'} className="">
             <InstaIcon />
           </a>
-          <a href="#" target={'blank'} className="">
-            <FbIcon />
+          <a
+            href="https://web.whatsapp.com/send?phone=358452259190&text=Hello%2C%20My%20Name%20is"
+            target={'blank'}
+            className="">
+            <WhatsAppIcon />
           </a>
         </div>
       </div>
