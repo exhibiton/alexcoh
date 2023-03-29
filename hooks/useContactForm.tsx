@@ -58,20 +58,16 @@ export default function useContactForm() {
       return obj
     })
     setInterestedList(data)
-
-    console.log(selectedList, 'selectedList')
   }
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault()
     setLoading(true)
-    console.log(selectedList)
     const finalMessage = `${
       contactForm.name
     } is contacting you because he is interested in ${selectedList.toString()}. His email is ${
       contactForm.email
     } and phone number ${contactForm.phone}. He left you the following message: ${contactForm.message}.`
-    console.log(finalMessage)
     emailjs
       .send('service_lcungj8', 'website_contact_form', {
         message: finalMessage,
@@ -82,7 +78,6 @@ export default function useContactForm() {
         Swal.fire('Great!', 'Thank you for get in touch!', 'success')
       })
       .catch((e) => {
-        console.log(e)
         setLoading(false)
         Swal.fire('Oops!', 'Failed to submit form, Please Try again!', 'error')
       })
