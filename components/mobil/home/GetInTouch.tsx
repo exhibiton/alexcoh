@@ -18,7 +18,7 @@ function GetInTouch() {
         </div>
         <div className="img-slides">
           <div>
-            <Image width={300} height={200} src={track} className="offer-img" alt="img" />
+            <Image width={300} height={200} src={track} placeholder="blur" className="offer-img" alt="img" />
           </div>{' '}
           <div>
             <Image
