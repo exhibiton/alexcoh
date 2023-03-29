@@ -29,7 +29,7 @@ const FormAbout = () => {
               required
               className="about_input"
               type="text"
-              placeholder="David Carron"
+              placeholder="Your Name"
             />
             <input
               onChange={(e) => setContactForm({ ...contactForm, email: e.target.value })}
@@ -37,7 +37,7 @@ const FormAbout = () => {
               required
               className="about_input"
               type="email"
-              placeholder="david.c@mai|"
+              placeholder="Email"
             />
             <input
               onChange={(e) => setContactForm({ ...contactForm, phone: e.target.value })}

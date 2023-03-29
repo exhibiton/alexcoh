@@ -10,7 +10,7 @@ const Address = () => {
       <div className="px-30">
         <p className="about_address">Address</p>
         <p className="about_address_details">Kalliomäki 39A, 02490 Pikkala, Finland</p>
-        <p className="about_address">Contacts</p>
+        <p className="about_address">Contact</p>
         <p className="about_address_details pb-40">+358452259190 hello@alexcoh.com</p>
       </div>
       <Image
