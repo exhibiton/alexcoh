@@ -36,29 +36,29 @@ function Testimonols() {
         {isShowLizText ? (
           <div>
             <p className="para px-30">
-              I started working with Alex less than 3 months before my primary goal, the eSports world cycling
+              {`I started working with Alex less than 3 months before my primary goal, the eSports world cycling
               championships on Zwift. While I had plenty of motivation, I was severely lacking confidence. I
               was at a very low point both physically and mentally. Desperation was the overwhelming feeling.
               Alex immediately identified my strengths/weaknesses, the demands of the event, and my life
               stressors. He developed a plan tailored specifically for me. Looking at both the quantitative
               data and listening to my feedback, he adjusted it based on what worked for me as an individual.
               As I pulled on my country's jersey, I knew I'd done everything I could to prepare. It had not
-              been an easy journey, but I finished 8th in the world which was a huge accomplishment for me.
+              been an easy journey, but I finished 8th in the world which was a huge accomplishment for me.`}
             </p>
             <p className="para px-30">
-              I'm a wife and mom to 2 young kids. I'm not a professional athlete. Alex has helped me to
+              {`I'm a wife and mom to 2 young kids. I'm not a professional athlete. Alex has helped me to
               achieve a greater balance and calmness in my life that I was missing. I trust him and his plan.
               I simply execute the plan, controlling what I can control. I've learned what hard work and
               pushing my limits actually entail. Not all coaches are created equal. Not all of them can help
               you reach your potential as both an athlete and a human being. Alex can and does. My family and
               I are incredibly grateful for his support, encouragement, and knowledge. I highly recommend
-              allowing him to transform your life as well!
+              allowing him to transform your life as well!`}
             </p>
           </div>
         ) : (
           <p className="para px-30">
-            I started working with Alex less than 3 months before my primary goal, the eSports world cycling
-            championships on Zwift....{' '}
+            {`I started working with Alex less than 3 months before my primary goal, the eSports world cycling
+            championships on Zwift...`}{' '}
           </p>
         )}
 
