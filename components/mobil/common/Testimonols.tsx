@@ -4,7 +4,7 @@ import rob from '../../../images/rob.jpg'
 import robson from '../../../images/robson.jpg'
 import matthias from '../../../images/matthias.jpg'
 import david from '../../../images/david.jpg'
-import anu from '../../../images/anu.jpg'
+import liz from '../../../images/liz.jpg'
 import tim from '../../../images/tim.jpg'
 import chris from '../../../images/chris.jpg'
 import michael from '../../../images/michael.jpg'
@@ -18,7 +18,7 @@ function Testimonols() {
   const [isShowRobsonText, setShowRobsonText] = useState(false)
   const [isShowMatthiasText, setShowMatthiasText] = useState(false)
   const [isShowDavidText, setShowDavidText] = useState(false)
-  const [isShowAnuText, setShowAnuText] = useState(false)
+  const [isShowLizText, setShowLizText] = useState(false)
   const [isShowTimText, setShowTimText] = useState(false)
   const [isShowMichaelText, setShowMichaelText] = useState(false)
   const [isShowChrisText, setShowChrisaText] = useState(false)
@@ -30,7 +30,46 @@ function Testimonols() {
   return (
     <>
       {/* TESTIMONIAL ITEM  */}
-      <div className="prfile">
+      <div className="prfile" style={{ marginTop: '60px' }}>
+        <Image width={120} height={120} src={liz} alt="liz" className="filter-gray" />
+        <h1 className="heading px-30">Liz Van Houweling</h1>
+        {isShowLizText ? (
+          <div>
+            <p className="para px-30">
+              I started working with Alex less than 3 months before my primary goal, the eSports world cycling
+              championships on Zwift. While I had plenty of motivation, I was severely lacking confidence. I
+              was at a very low point both physically and mentally. Desperation was the overwhelming feeling.
+              Alex immediately identified my strengths/weaknesses, the demands of the event, and my life
+              stressors. He developed a plan tailored specifically for me. Looking at both the quantitative
+              data and listening to my feedback, he adjusted it based on what worked for me as an individual.
+              As I pulled on my country's jersey, I knew I'd done everything I could to prepare. It had not
+              been an easy journey, but I finished 8th in the world which was a huge accomplishment for me.
+            </p>
+            <p className="para px-30">
+              I'm a wife and mom to 2 young kids. I'm not a professional athlete. Alex has helped me to
+              achieve a greater balance and calmness in my life that I was missing. I trust him and his plan.
+              I simply execute the plan, controlling what I can control. I've learned what hard work and
+              pushing my limits actually entail. Not all coaches are created equal. Not all of them can help
+              you reach your potential as both an athlete and a human being. Alex can and does. My family and
+              I are incredibly grateful for his support, encouragement, and knowledge. I highly recommend
+              allowing him to transform your life as well!
+            </p>
+          </div>
+        ) : (
+          <p className="para px-30">
+            I started working with Alex less than 3 months before my primary goal, the eSports world cycling
+            championships on Zwift....{' '}
+          </p>
+        )}
+
+        <div className="px-30 ">
+          <button onClick={() => setShowLizText(!isShowLizText)} className="more-btn">
+            {isShowLizText ? 'LESS' : 'MORE'}
+          </button>
+        </div>
+      </div>
+      {/* TESTIMONIAL ITEM  */}
+      <div className="prfile" style={{ marginTop: '60px' }}>
         <Image width={120} height={120} src={rob} alt="img" className="filter-gray" />
         <h1 className="heading px-30">Rob</h1>
         {isShowRobText ? (
@@ -184,33 +223,7 @@ function Testimonols() {
           </button>
         </div>
       </div>
-      {/* TESTIMONIAL ITEM  */}
-      <div className="prfile" style={{ marginTop: '60px' }}>
-        <Image width={120} height={120} src={anu} alt="anu" className="filter-gray" />
-        <h1 className="heading px-30">Anu Lammi</h1>
-        {isShowAnuText ? (
-          <div>
-            <p className="para px-30">
-              I am consistently feeling like a super well cared athlete.” Sometimes, at first glance, you feel
-              when you meet a person who truly cares. Starting from bike fitting nearly four years ago, we
-              have travelled into an all- inclusive coaching relationship. Through extremely rough times and
-              changing conditions in life, the unique and distinctive approach of Alex has been tremendous.
-            </p>
-            <p className="para px-30">I’m happy to stay under your wing and continue to develop myself.</p>
-          </div>
-        ) : (
-          <p className="para px-30">
-            I am consistently feeling like a super well cared athlete.” Sometimes, at first glance, you feel
-            when you meet a person who truly cares...{' '}
-          </p>
-        )}
 
-        <div className="px-30 ">
-          <button onClick={() => setShowAnuText(!isShowAnuText)} className="more-btn">
-            {isShowMatthiasText ? 'LESS' : 'MORE'}
-          </button>
-        </div>
-      </div>
       {/* TESTIMONIAL ITEM  */}
       <div className="prfile" style={{ marginTop: '60px' }}>
         <Image width={120} height={120} src={tim} alt="tim" className="filter-gray" />
@@ -328,44 +341,6 @@ function Testimonols() {
         <div className="px-30 ">
           <button onClick={() => setShowChrisaText(!isShowChrisText)} className="more-btn">
             {isShowChrisText ? 'LESS' : 'MORE'}
-          </button>
-        </div>
-      </div>
-      {/* TESTIMONIAL ITEM  */}
-      <div className="prfile" style={{ marginTop: '60px' }}>
-        <Image width={120} height={120} src={juhana} alt="juhana" className="filter-gray" />
-        <h1 className="heading px-30">Juhana Häkkinen</h1>
-        {isShowJuhanaText ? (
-          <div>
-            <p className="para px-30">I have fought with my stomach for 25 years. Tried everything.</p>
-
-            <ol className="para px-30">
-              <li>lactose free</li>
-              <li>gluten free</li>
-              <li>fodmap</li>
-              <li>coloscopies</li>
-              <li>gastrosopia</li>
-              <li>acupuncture</li>
-            </ol>
-
-            <p className="para px-30">
-              Visited so many doctors and specialists I have lost count. I have done triathlon now for five
-              years and when my friend recommended Alex with his own dietary results I was sold. I started in
-              January with Alex and in June I already had my first Ironman 70.3. race without any stomach
-              problems. I recover faster, can train harder and energy and nutrients are absorbed finally so I
-              am healthier as well. I have hired Alex a few months ago to be my triathlon coach as well and I
-              have been very happy so far. This year has been really heavy on the personal life but my stomach
-              has been better than ever and I am looking forward to the rest of my sports journey.
-            </p>
-            <p className="para px-30">Definitely thumbs up and full recommendation.</p>
-          </div>
-        ) : (
-          <p className="para px-30">I have fought with my stomach for 25 years. Tried everything... </p>
-        )}
-
-        <div className="px-30 ">
-          <button onClick={() => setShowJuhanaText(!isShowJuhanaText)} className="more-btn">
-            {isShowJuhanaText ? 'LESS' : 'MORE'}
           </button>
         </div>
       </div>

@@ -6,7 +6,7 @@ import rob from '../../images/rob.jpg'
 import robson from '../../images/robson.jpg'
 import matthias from '../../images/matthias.jpg'
 import david from '../../images/david.jpg'
-import anu from '../../images/anu.jpg'
+import liz from '../../images/liz.jpg'
 import tim from '../../images/tim.jpg'
 import chris from '../../images/chris.jpg'
 import michael from '../../images/michael.jpg'
@@ -20,6 +20,32 @@ export default function AboutDesktop() {
     <div>
       <NavigationBar />
       <div className={styles.mainContainer}>
+        <div className={styles.testimonial}>
+          <div className={styles.testimonialCard}>
+            <Image src={liz} alt="liz" placeholder="blur" />
+          </div>
+          <div className={styles.testimonialContent}>
+            <div className={styles.testimonialTitle}>Liz Van Houweling</div>
+            <div className={styles.testimonialBody}>
+              I started working with Alex less than 3 months before my primary goal, the eSports world cycling
+              championships on Zwift. While I had plenty of motivation, I was severely lacking confidence. I
+              was at a very low point both physically and mentally. Desperation was the overwhelming feeling.
+              Alex immediately identified my strengths/weaknesses, the demands of the event, and my life
+              stressors. He developed a plan tailored specifically for me. Looking at both the quantitative
+              data and listening to my feedback, he adjusted it based on what worked for me as an individual.
+              As I pulled on my country's jersey, I knew I'd done everything I could to prepare. It had not
+              been an easy journey, but I finished 8th in the world which was a huge accomplishment for me.
+              <br /> <br />
+              I'm a wife and mom to 2 young kids. I'm not a professional athlete. Alex has helped me to
+              achieve a greater balance and calmness in my life that I was missing. I trust him and his plan.
+              I simply execute the plan, controlling what I can control. I've learned what hard work and
+              pushing my limits actually entail. Not all coaches are created equal. Not all of them can help
+              you reach your potential as both an athlete and a human being. Alex can and does. My family and
+              I are incredibly grateful for his support, encouragement, and knowledge. I highly recommend
+              allowing him to transform your life as well!
+            </div>
+          </div>
+        </div>
         <div className={styles.testimonial}>
           <div className={styles.testimonialCard}>
             <Image src={rob} alt="Rob" placeholder="blur" />
@@ -114,22 +140,7 @@ export default function AboutDesktop() {
           </div>
         </div>
       </div>
-      <div className={styles.testimonial}>
-        <div className={styles.testimonialCard}>
-          <Image src={anu} alt="anu" placeholder="blur" />
-        </div>
-        <div className={styles.testimonialContent}>
-          <div className={styles.testimonialTitle}>Anu Lammi</div>
-          <div className={styles.testimonialBody}>
-            I am consistently feeling like a super well cared athlete.” Sometimes, at first glance, you feel
-            when you meet a person who truly cares. Starting from bike fitting nearly four years ago, we have
-            travelled into an all- inclusive coaching relationship. Through extremely rough times and changing
-            conditions in life, the unique and distinctive approach of Alex has been tremendous.
-            <br /> <br />
-            I’m happy to stay under your wing and continue to develop myself.
-          </div>
-        </div>
-      </div>
+
       <div className={styles.testimonial}>
         <div className={styles.testimonialCard}>
           <Image src={tim} alt="tim" placeholder="blur" />
