@@ -60,8 +60,8 @@ function AboutHero() {
           overtraining where I said enough is enough and started learning about coaching first testing on
           myself, then on friends and family and finally started taking athletes 3 years ago.
           <br />
-          <br />I am currently coaching 37 people of various fitness levels in cycling and triathlon ranging
-          from beginners to World tour cyclists.
+          <br />I am currently coaching people of various fitness levels in cycling and triathlon ranging from
+          beginners to World tour cyclists.
         </p>
       </div>
 

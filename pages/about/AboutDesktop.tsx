@@ -66,7 +66,7 @@ export default function AboutDesktop() {
         recovery, fuelling or hydration. This has led to me spending 6 months recovering from overtraining
         where I said enough is enough and started learning about coaching first testing on myself, then on
         friends and family and finally started taking athletes 3 years ago. <br />
-        <br />I am coaching around 50 people of various fitness levels in cycling and triathlon ranging from
+        <br />I am coaching around people of various fitness levels in cycling and triathlon ranging from
         beginners to World tour cyclists.
       </div>
       <div className={styles.contentPicture}>
