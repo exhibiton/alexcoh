@@ -11,7 +11,7 @@ const Address = () => {
         <p className="about_address">Address</p>
         <p className="about_address_details">Kalliomäki 39A, 02490 Pikkala, Finland</p>
         <p className="about_address">Contact</p>
-        <p className="about_address_details pb-40">+358452259190 hello@alexcoh.com</p>
+        <p className="about_address_details pb-40">+358452259190 ac@alexcohcoaching.com</p>
       </div>
       <Image
         width={79}
