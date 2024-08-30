@@ -77,7 +77,7 @@ export default function CoachingDesktop() {
               <br />
             </div>
             <div className={styles.carouselPrice}>
-              <a className={styles.carouselPriceBold}>150€</a> / Setup
+              <a className={styles.carouselPriceBold}>165€</a> / Setup
             </div>
           </div>
           <div className={styles.carouselText}>
@@ -92,7 +92,7 @@ export default function CoachingDesktop() {
               <br />
             </div>
             <div className={styles.carouselPrice}>
-              <a className={styles.carouselPriceBold}>150€</a> / Setup
+              <a className={styles.carouselPriceBold}>165€</a> / Setup
             </div>
           </div>
         </div>

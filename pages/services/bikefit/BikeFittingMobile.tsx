@@ -58,7 +58,7 @@ export default function BikeFittingDesktop() {
               the fit and your adaptation time to the changes.
             </div>
             <div className={styles.carouselPrice}>
-              <a className={styles.carouselPriceBold}>275€</a>
+              <a className={styles.carouselPriceBold}>400€</a>
             </div>
           </div>
         </div>
