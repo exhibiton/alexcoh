@@ -41,7 +41,7 @@ export default function LongetivityDesktop() {
       <div className={styles.mainBody}>
         <div className={styles.mainBodyText}>
           Endurance and strength coaching tailored to your sport, fitness level, and long-term goals. Whether
-          you're focused on endurance sports, gym training, or integrating yoga for mobility and injury
+          you&apos;re focused on endurance sports, gym training, or integrating yoga for mobility and injury
           prevention, your program is fully customized to support your needs.
           <br /> <br />
           Advanced recovery techniques including breathwork, cold exposure, contrast therapy, structured
@@ -59,7 +59,7 @@ export default function LongetivityDesktop() {
           for precise adjustments to your training and nutrition.
           <br /> <br />
           Unlimited access to your coach, with direct, real-time communication whenever you need adjustments,
-          guidance, or troubleshooting. No rigid schedules—just full support whenever it's needed.
+          guidance, or troubleshooting. No rigid schedules—just full support whenever it&apos;s needed.
           <br /> <br />
           Ongoing support and adaptation through weekly check-ins and continuous data tracking to refine
           training, recovery, and nutrition strategies based on your progress and needs.
