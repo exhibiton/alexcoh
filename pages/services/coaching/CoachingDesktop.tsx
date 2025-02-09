@@ -22,6 +22,9 @@ export default function CoachingDesktop() {
           <div className={styles.navigationLink}>
             <TabLink href="/services/bikefit">Bikefitting</TabLink>
           </div>
+          <div className={styles.navigationLink}>
+            <TabLink href="/services/longetivity">Longetivity</TabLink>
+          </div>
         </div>
       </div>
       <div className={styles.coachingOne}>

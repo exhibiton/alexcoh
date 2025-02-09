@@ -38,6 +38,10 @@ export default function useContactForm() {
       selected: false,
     },
     {
+      text: 'LONGETIVITY COACHING',
+      selected: false,
+    },
+    {
       text: 'BIKEFITTING',
       selected: false,
     },

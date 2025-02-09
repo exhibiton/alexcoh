@@ -10,7 +10,7 @@
 
 .servicesNavigation {
   position: fixed;
-  height: 32.8vw;
+  height: 35vw;
   background-color: #2e0db2;
   width: 18vw;
   padding-top: 20vh;
@@ -52,7 +52,7 @@
 
 .coachingOne img {
   width: 63vw;
-  height: auto;
+  height: 35vw;
 }
 
 .mainBody {

@@ -1,0 +1,213 @@
+.navigationLink {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #d8d5e2;
+}
+
+.servicesNavigation {
+  background-color: #2e0db2;
+  margin-top: 0px;
+}
+
+.servicesNavigationLinks {
+  display: flex;
+  margin-left: 15px;
+}
+
+.navigationLink {
+  margin-right: 20px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+.navigationLink a {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.mainContainer {
+  text-align: center;
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.mainTitle {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38.4px;
+  padding-left: 5.33vw;
+  padding-right: 5.33vw;
+  text-align: left;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  position: absolute;
+  top: -140px;
+}
+
+.coachingOne  {
+}
+
+.coachingOne img {
+  width: 100%;
+  height: 196px;
+  object-fit: cover;
+}
+
+.mainBody {
+  /* margin-left: 25vw;
+  margin-right: 10vw;
+  margin-top: 20vh; */
+  margin-top: -10vh;
+}
+
+.secondBody {
+  /* margin-left: 25vw;
+  margin-right: 10vw;
+  margin-top: 10vh; */
+}
+
+.mainBodyText {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 33.6px;
+  /* or 150% */
+  padding-left: 5.33vw;
+  padding-right: 5.33vw;
+  letter-spacing: -0.01em;
+
+  color: #d8d5e2;
+}
+.mainBodyText p {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 33.6px;
+  /* or 150% */
+
+  letter-spacing: -0.01em;
+
+  color: #d8d5e2;
+}
+
+.getInTouch {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 38.4px;
+  /* identical to box height, or 112% */
+
+  letter-spacing: -0.01em;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+
+  color: #958b69;
+  padding-left: 5.33vw;
+  padding-right: 5.33vw;
+}
+
+.price {
+  font-size: 28px;
+  line-height: 38.4px;
+  color: #fff;
+  padding-left: 5.33vw;
+  padding-right: 5.33vw;
+}
+.price p {
+  margin-bottom: 0;
+}
+
+.carouselSection {
+  padding-top: 40px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.carousel {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-bottom: -4px;
+}
+
+.carouselPicture {
+  margin: 0;
+  padding: 0;
+}
+
+.carouselText {
+  height: auto;
+  color: white;
+  background: #2e0db3;
+  padding-bottom: 20px;
+  padding-left: 5.33vw;
+  padding-right: 5.33vw;
+}
+.carouselDarkText {
+  height: auto;
+  color: white;
+}
+
+.carouselTextTitle {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+  padding: 5.333vw 0;
+}
+
+.carouselTextContent {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 28px;
+  /* or 178% */
+
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+  padding-bottom: 5.333vw;
+}
+
+.carouselPicture img {
+  width: 25vw;
+  height: auto;
+}
+
+.carouselDoublePicture img {
+  width: 50vw;
+  height: auto;
+}
+
+.carouselPrice {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.carouselPriceBold {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #ffffff;
+}
