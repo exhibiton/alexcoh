@@ -31,7 +31,7 @@ export default function App({ Component, pageProps }: AppProps) {
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange)
     }
-  }, [])
+  }, [router.events])
 
   return (
     <PostHogProvider client={posthog}>
