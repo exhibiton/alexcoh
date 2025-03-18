@@ -33,10 +33,10 @@ export default function AboutDesktop() {
               and high levels of fitness, I knew he would be the right coach to help me achieve an elusive
               cycling goal of a 5w/kg FTP. In a few short months, Alex has helped me increase my FTP by 15
               watts and I can see my goal is just in reach with the bulk of the season still ahead. With
-              Alexs' help I trained for a bucket list ride in February, Haleakala the "World's Longest Paved
-              Climb". This is a pretty infamous Strava route and one that I wanted to hit hard with a goal
+              Alex&apos;s help I trained for a bucket list ride in February, Haleakala the &quot;World&apos;s Longest Paved
+              Climb&quot;. This is a pretty infamous Strava route and one that I wanted to hit hard with a goal
               time of 3 hours or less. Following his precision interval training and professional advice, I
-              was able to beat my goal time by 8 minutes and average 10 watts more than I've ever averaged for
+              was able to beat my goal time by 8 minutes and average 10 watts more than I&apos;ve ever averaged for
               even half that time. This was a huge increase in performance for me! When Alex fills my training
               calendar, I can see the personal touch and thought that has gone into shaping a plan that works
               around my life and prepares me to accomplish my cycling goals. When I do the workouts, I can
@@ -80,21 +80,21 @@ export default function AboutDesktop() {
           <div className={styles.testimonialContent}>
             <div className={styles.testimonialTitle}>Rob</div>
             <div className={styles.testimonialBody}>
-              Alex is quite simply the best that you can get. He's transformed my attitude and nutrition as
-              well as my fitness. He's endlessly encouraging, always has time and judges exactly what's
-              needed. I've achieved things with Alex that I wouldn't have thought were possible. <br /> <br />
+              Alex is quite simply the best that you can get. He&apos;s transformed my attitude and nutrition as
+              well as my fitness. He&apos;s endlessly encouraging, always has time and judges exactly what&apos;s
+              needed. I&apos;ve achieved things with Alex that I wouldn&apos;t have thought were possible. <br /> <br />
               Trust is probably the keyword. Alex works hard at this. After a while you begin to trust that
               Alex knows your limits and whatever he sets, while it might look insurmountable, is possible if
-              you get your mindset right. I'm still not quite sure how I completed a few of the training
+              you get your mindset right. I&apos;m still not quite sure how I completed a few of the training
               sessions. <br /> <br />
               The training feels, and is, truly personalised. Alex listens carefully to feedback and tweaks my
               training plan sometimes more than once a week. I suppose the simplest way of putting it is Alex
-              recognises everyone is human, sometimes they want to go off the plan, sometimes they don't feel
+              recognises everyone is human, sometimes they want to go off the plan, sometimes they don&apos;t feel
               right, and he adjusts constantly. <br /> <br />
-              Everything is designed to maximise your potential and use of time. I've seen major results,
+              Everything is designed to maximise your potential and use of time. I&apos;ve seen major results,
               raising by FTP 20w in 4 months, raising my cycling efficiency closer to 10% and feeling stronger
-              and fitter than I ever had before. The biggest change I've seen through working with Alex is
-              mental rather than physical. He's helped me build confidence to attack training sessions and
+              and fitter than I ever had before. The biggest change I&apos;ve seen through working with Alex is
+              mental rather than physical. He&apos;s helped me build confidence to attack training sessions and
               races.
             </div>
           </div>
@@ -107,14 +107,14 @@ export default function AboutDesktop() {
         <div className={styles.testimonialContent}>
           <div className={styles.testimonialTitle}>Robson Lindberg</div>
           <div className={styles.testimonialBody}>
-            I've known Alex for 2 years. We share a curiosity that isn't common. In Alex case, his passion is
-            his fortitude. If he doesn't know something, he sees it as a challenge. Alex has helped me
-            understand my nutritional needs. I've been an athlete all my life and thought I had this area
-            squared away. I couldn't have been more wrong. With Alex everything is based on science and then
+            I&apos;ve known Alex for 2 years. We share a curiosity that isn&apos;t common. In Alex case, his passion is
+            his fortitude. If he doesn&apos;t know something, he sees it as a challenge. Alex has helped me
+            understand my nutritional needs. I&apos;ve been an athlete all my life and thought I had this area
+            squared away. I couldn&apos;t have been more wrong. With Alex everything is based on science and then
             through discussion and meticulous testing tailored for you. Test, analyze, repeat. The more
             information you can give Alex, the more he can work with. And he works his ass off. For so long I
             was executing my workouts to perfection. However, I put diesel in a Ferrari. And you never put
-            diesel in a Ferrari. I've made quantum leaps during the time we've worked together. Why aren't you
+            diesel in a Ferrari. I&apos;ve made quantum leaps during the time we&apos;ve worked together. Why aren&apos;t you
             working with Alex?
           </div>
         </div>
@@ -126,7 +126,7 @@ export default function AboutDesktop() {
         <div className={styles.testimonialContent}>
           <div className={styles.testimonialTitle}>Matthias Petry</div>
           <div className={styles.testimonialBody}>
-            Alex is the best thing that could have happened to me, he's not just a trainer, no, he lives this
+            Alex is the best thing that could have happened to me, he&apos;s not just a trainer, no, he lives this
             job 100%. I was really in a very difficult sporting phase, totally in training and then a fall
             with a broken pelvis ... but then I started training with Alex, now I have everything I need, he
             makes perfectly tailored individual training plans, gives help nutrition and, above all, great
@@ -147,22 +147,22 @@ export default function AboutDesktop() {
           <div className={styles.testimonialTitle}>David Gilbert</div>
           <div className={styles.testimonialBody}>
             I want a coach to help me improve and develop physically and mentally. To put together a plan and
-            structure that is engaging, takes me out of my comfort zone and gets results. That's the minimum
+            structure that is engaging, takes me out of my comfort zone and gets results. That&apos;s the minimum
             you should expect.
             <br /> <br />
-            I've been fortunate to have a good coach and a great coach in the past but then, on another level
-            entirely, there's Alex Coh.
+            I&apos;ve been fortunate to have a good coach and a great coach in the past but then, on another level
+            entirely, there&apos;s Alex Coh.
             <br /> <br />
-            Workouts are cleverly structured and I'm genuinely excited (and a little nervous!) to see what's
+            Workouts are cleverly structured and I&apos;m genuinely excited (and a little nervous!) to see what&apos;s
             laid out in Training Peaks.
             <br /> <br />
             I have absolute trust in the process and plan and get daily feedback, advice and support. And its
-            genuine. The sessions are often uncompromising, but I don't want a coach who can make me average,
-            and with Alex, there is no average. I've invested myself in Alex but he's equally invested himself
+            genuine. The sessions are often uncompromising, but I don&apos;t want a coach who can make me average,
+            and with Alex, there is no average. I&apos;ve invested myself in Alex but he&apos;s equally invested himself
             in me. I want to be my best. He does too.
             <br /> <br />
             He gets me. Understands I have a business, a busy family life and limited time. If you want to see
-            what you're REALLY capable of, I can't recommend this man highly enough. It's a great ride and I'm
+            what you&apos;re REALLY capable of, I can&apos;t recommend this man highly enough. It&apos;s a great ride and I&apos;m
             absolutely loving it!
           </div>
         </div>
@@ -201,9 +201,9 @@ export default function AboutDesktop() {
             solve both the recovery from my injury, as well as take my performance to the next level and see
             how far I can really go, at 44 years old, I signed up with Alex as my first coach.
             <br />
-            I'm now 2 months in to working with Alex, and I have to say the experience has been excellent so
+            I&apos;m now 2 months in to working with Alex, and I have to say the experience has been excellent so
             far. Alex is incredibly active in both understanding my performance and adapting my training plan
-            accordingly. He's always available for questions and support, and has rewritten my plan completely
+            accordingly. He&apos;s always available for questions and support, and has rewritten my plan completely
             at least twice as circumstances have changed with my health and availability. <br />
             As a technology executive with two sons who play multiple sports at both school and club, my time
             is limited, and Alex is great at maximising the effectiveness of every training hour. I am
@@ -222,9 +222,9 @@ export default function AboutDesktop() {
           <div className={styles.testimonialBody}>
             The coaching relationship I have with Alex is incredibly important to me. His support empowers me
             to achieve my goals. I am a partner at a Big Four global accountancy firm and have a young family,
-            free time is not something I have in abundance. Despite my time constraints, Alex's considered and
+            free time is not something I have in abundance. Despite my time constraints, Alex&apos;s considered and
             focused coaching allows me to compete at a high level at middle and long distance triathlon.
-            Alex's support has crossed over into my professional life where insights I have gained from his
+            Alex&apos;s support has crossed over into my professional life where insights I have gained from his
             no-nonsense approach has helped me deal with obstacles and address a variety of workplace
             stresses. For me he is a valued advisor that I thoroughly recommend for anybody thinking about
             competing in endurance sports.
@@ -239,13 +239,13 @@ export default function AboutDesktop() {
           <div className={styles.testimonialTitle}>Chris Loake</div>
           <div className={styles.testimonialBody}>
             Alex is a coach that understands high performance, having competed at a high level himself. This
-            means that he knows when it's time to push on, and when it's time to rest, as well as what it
+            means that he knows when it&apos;s time to push on, and when it&apos;s time to rest, as well as what it
             feels like to both win and lose. This perspective is very helpful in ensuring that the
             psychological aspects of the training loads are considered, as well as the physiological. As a
             time-crunched athlete, I have limited training hours available each week around a busy home and
             work life. Alex is both flexible in his approach to adjusting schedules on the fly, as well as
             thoughtful about how to make the most of the training time available. I have already recommended
-            Alex to other athletes I know and wouldn't hesitate to do so again.
+            Alex to other athletes I know and wouldn&apos;t hesitate to do so again.
           </div>
         </div>
       </div>
@@ -284,16 +284,16 @@ export default function AboutDesktop() {
           <div className={styles.testimonialTitle}>Katariina Lajunen</div>
           <div className={styles.testimonialBody}>
             Encouraging, supportive and analytic. These three words are the first ones coming to my mind when
-            I think of Alex as my coach. He's been supporting me with road biking for a couple of months now
+            I think of Alex as my coach. He&apos;s been supporting me with road biking for a couple of months now
             and there are many factors that I value in our cooperation. First of all, it really is
-            cooperation. He's always taking the big picture into account and understands that cycling is not
-            all my life since I'm a working mother of two kids who also has other weekly hobbies. Working out
+            cooperation. He&apos;s always taking the big picture into account and understands that cycling is not
+            all my life since I&apos;m a working mother of two kids who also has other weekly hobbies. Working out
             should be fun, Alex says. And to me it really is, when I have a professional planning the cycling
             workouts according to my personal fitness and goals. Workouts are so diverse that they easily keep
-            up the interest and motivation to continuously learn and develop. And for sure, it's not only fun
-            but it's also demanding, in a positive way. I'm amazed how Alex is able to both analyze and
-            utilize the data he sees and build the positive development in performance. It's really cool to
-            have a coach who is passionate about what he's doing and who truly wants to make his customers
+            up the interest and motivation to continuously learn and develop. And for sure, it&apos;s not only fun
+            but it&apos;s also demanding, in a positive way. I&apos;m amazed how Alex is able to both analyze and
+            utilize the data he sees and build the positive development in performance. It&apos;s really cool to
+            have a coach who is passionate about what he&apos;s doing and who truly wants to make his customers
             succeed!
           </div>
         </div>
@@ -332,24 +332,24 @@ export default function AboutDesktop() {
         <div className={styles.testimonialContent}>
           <div className={styles.testimonialTitle}>Markus Kaarto</div>
           <div className={styles.testimonialBody}>
-            I've been loving cycling since I was 10 years old but have pretty much always had issues with my
+            I&apos;ve been loving cycling since I was 10 years old but have pretty much always had issues with my
             cycling position. I originally got to know Alex after searching for the best bike fitter in town.
             Spending the 1st two hours in bike fit, listening to his knowledge and enthusiasm to find results
-            was something I hadn't experienced in the past 30 years.
+            was something I hadn&apos;t experienced in the past 30 years.
             <br />
             During the next two years, he became my God of Aerodynamics, explaining clearly the benefits one
             can achieve via an effective position on the bike. His knowledge was so great that I got the
             courage to invest into a weapon of my dreams and have really seen the results in watts needed to
             achieve fast speeds on a bike.
             <br />
-            For the past year, I've also had Alex as my coach – seeing again the benefits of his wide
+            For the past year, I&apos;ve also had Alex as my coach – seeing again the benefits of his wide
             knowledge and experience. In just six months under his training, I was able to increase the FTP by
             around 20%. By the end of the season, I was able to still increase the watts & improve the
             position, thus reaching the result in a full distance Ironman that I had set as a goal in 18
             months time. This is especially significant when taking into account that, at the same time, I had
             to reduce the amount of training hours due to extreme workload. The result was just astonishing!
             <br />
-            <br />I couldn't be happier in the bike fit & coaching from Alex and can highly recommend him!
+            <br />I couldn&apos;t be happier in the bike fit & coaching from Alex and can highly recommend him!
           </div>
         </div>
       </div>
